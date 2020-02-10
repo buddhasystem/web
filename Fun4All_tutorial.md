@@ -37,9 +37,6 @@ Change the directory
 Go to the root  
 ```
       root.exe  
-```      
-Run the code  
-```
       root [0] .x Fun4All_G4_Momentum.C(-1)  
       ERROR  
 ```      
