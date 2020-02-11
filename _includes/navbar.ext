@@ -69,6 +69,11 @@
 <!----------------- SOFTWARE ----------------------------------------------->
              <li class="dropdown">
               <a class="dropdown-toggle" data-toggle="dropdown" href="{{ '/index.html | relative_url }}" id="projects_menu">Software<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="experiment_menu">
+                 {% for item in site.software %}
+                   <li><a href="{{ item.url | relative_url }}">{{ item.title }}</a></li>
+                 {% endfor %}
+               </ul>
             </li>
 
           </ul>
