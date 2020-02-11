@@ -66,15 +66,9 @@
                 </ul>
             </li -->
  
-<!----------------- RESOURCES ----------------------------------------------->
+<!----------------- SOFTWARE ----------------------------------------------->
              <li class="dropdown">
-              <a class="dropdown-toggle" data-toggle="dropdown" href="/projects.html" id="projects_menu">Resources<span class="caret"></span></a>
-                <ul class="dropdown-menu" aria-labelledby="projects_menu">
-                  <li><a href="/who.html">People</a></li>
-                  <li><a href="/documents.html">Documents &amp; Presentations</a></li>
-                  <li><a href="/support.html">Support and operations</a></li>
-                  <li><a href="https://github.com/BNLNPPS" target="_blank">BNLNPPS in GitHub</a></li>
-                </ul>
+              <a class="dropdown-toggle" data-toggle="dropdown" href="{{ '/index.html | relative_url }}" id="projects_menu">Software<span class="caret"></span></a>
             </li>
 
           </ul>
