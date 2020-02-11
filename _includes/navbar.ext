@@ -85,7 +85,7 @@
             <li class="dropdown">
               <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="about_menu">About<span class="caret"></span></a>
               <ul class="dropdown-menu" aria-labelledby="about_menu">
-                <li><a href="/contact.html">Contact us</a></li>
+                <li><a href="{{ '/contact.html' | relative_url }}">Contact us</a></li>
                 <li><a href="/nppsorg.html">NPPS organization</a><li>
                 <li><a href="/who.html">Who we are</a></li>
                 <li><a href="/howto-website.html">Website info and howto</a></li>
