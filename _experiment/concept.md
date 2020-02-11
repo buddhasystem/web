@@ -1,5 +1,5 @@
 ---
-title: The concept
+title: The Concept
 abbrev: Concept
 layout: default
 ---
