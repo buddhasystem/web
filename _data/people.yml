@@ -1,0 +1,19 @@
+- name: akiba
+  full: Yasuyuki Akiba
+  email: akiba@bnl.gov
+
+- name: david
+  full: Gabor David
+  email: david@bnl.gov
+
+- name: pinkenburg
+  full: Chris Pinkenburg
+  email: pinkenburg@bnl.gov
+
+- name: potekhin
+  full: Maxim Potekhin
+  email: potekhin@bnl.gov
+
+- name: todoroki
+  full: Takahito Todoroki
+  email: todoroki@bnl.gov
