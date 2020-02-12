@@ -1,11 +1,8 @@
 ---
-title: Overview
-abbrev: Overview
+title: Software Overview
+abbrev: softwareoverview
 layout: default
 ---
+# Software Overview
 
-# Work in progress
-
-### References
-
-- [PHENIX website](https://www.phenix.bnl.gov/)
+{% include workinprogress.md %}

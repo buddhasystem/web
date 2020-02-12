@@ -1,11 +1,8 @@
 ---
 title: Publications
-abbrev: Publications
+abbrev: publications
 layout: default
 ---
+# Publications
 
-# Work in progress
-
-### References
-
-- [PHENIX website](https://www.phenix.bnl.gov/)
+{% include workinprogress.md %}
