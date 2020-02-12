@@ -1,4 +1,4 @@
-
+<!----------------- HOME ----------------------------------------------->
 <div class="navbar navbar-default">
       <div class="container">
         <div class="navbar-header">
@@ -11,14 +11,17 @@
         </div>
 
 
+<!----------------- EXPERIMENT ----------------------------------------------->
         <div class="navbar-collapse collapse" id="navbar-main">
           <ul class="nav navbar-nav">
             <li class="dropdown">
               <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="activities_menu">The Experiment<span class="caret"></span></a>
                 <ul class="dropdown-menu" aria-labelledby="experiment_menu">
-                 {% for item in site.experiment %}
+		 {% assign items = site.experiment | sort: 'weight' %}
+                 {% for item in items %} <!-- site.experiment -->
                    <li><a href="{{ item.url | relative_url }}">{{ item.title }}</a></li>
                  {% endfor %}
+		 
                </ul>
             </li>
             

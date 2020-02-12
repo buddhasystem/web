@@ -1,7 +1,8 @@
 ---
-title: The Concept
-abbrev: Concept
+title: Concept
+abbrev: concept
 layout: default
+weight: 1
 ---
 
 The PHENIX Collaboration performs basic research with high energy collisions of heavy ions and protons. The primary mission of PHENIX is the following:
