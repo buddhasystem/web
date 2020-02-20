@@ -5,12 +5,17 @@
 name: The PHENIX website
 description: The website of the PHENIX Experiment at RHIC (Brookhaven National Laboratory)
 url: http://phenix.org
+
 excerpt_separator: <!--more-->
 timezone: America/New_York
 highlighter: rouge
+
 markdown: kramdown
 future: true
 exclude: [vendor]
+
+baseurl: /web
+
 plugins:
   - jekyll-mentions
   - jekyll-sitemap
