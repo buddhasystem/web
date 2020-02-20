@@ -25,6 +25,45 @@
                </ul>
             </li>
             
+ 
+<!----------------- SOFTWARE ----------------------------------------------->
+             <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="{{ '/index.html | relative_url }}" id="projects_menu">Software<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="experiment_menu">
+		 {% assign items = site.software | sort: 'weight' %}
+                 {% for item in items %}
+                   <li><a href="{{ item.url | relative_url }}">{{ item.title }}</a></li>
+                 {% endfor %}
+               </ul>
+            </li>
+
+          </ul>
+
+
+<!----------------- ABOUT ----------------------------------------------->
+          <ul class="nav navbar-nav navbar-right">
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="about_menu">About<span class="caret"></span></a>
+              <ul class="dropdown-menu" aria-labelledby="about_menu">
+                <li><a href="{{ '/contact.html' | relative_url }}">Contact us</a></li>
+                <!-- li><a href="/nppsorg.html">NPPS organization</a><li>
+                <li><a href="/who.html">Who we are</a></li>
+                <li><a href="/howto-website.html">Website info and howto</a></li>
+                
+                <li class="divider"></li>
+                <li><a href="https://www.bnl.gov/physics/" target="_blank">Physics at BNL</a></li>
+                <li><a href="https://www.sdcc.bnl.gov/" target="_blank">Scientific computing at BNL</a></li>
+                <li><a href="https://hepsoftwarefoundation.org" target="_blank">Community software</a></li -->
+
+              </ul>
+            </li>
+          </ul>
+
+        </div>
+      </div>
+    </div>
+
+
             <!-- li class="dropdown">
               <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="wg_menu">Tech Teams<span class="caret"></span></a>
                 <ul class="dropdown-menu" aria-labelledby="activities_menu">
@@ -68,39 +107,3 @@
                   <li><a href="https://calendar.google.com/calendar/embed?src=e4v33e1a1drbncdle1n03ahpcs%40group.calendar.google.com&ctz=Europe/Amsterdam"  target="_blank">HSF community calendar</a></li>
                 </ul>
             </li -->
- 
-<!----------------- SOFTWARE ----------------------------------------------->
-             <li class="dropdown">
-              <a class="dropdown-toggle" data-toggle="dropdown" href="{{ '/index.html | relative_url }}" id="projects_menu">Software<span class="caret"></span></a>
-                <ul class="dropdown-menu" aria-labelledby="experiment_menu">
-                 {% for item in site.software %}
-                   <li><a href="{{ item.url | relative_url }}">{{ item.title }}</a></li>
-                 {% endfor %}
-               </ul>
-            </li>
-
-          </ul>
-
-
-<!----------------- ABOUT ----------------------------------------------->
-          <ul class="nav navbar-nav navbar-right">
-            <li class="dropdown">
-              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="about_menu">About<span class="caret"></span></a>
-              <ul class="dropdown-menu" aria-labelledby="about_menu">
-                <li><a href="{{ '/contact.html' | relative_url }}">Contact us</a></li>
-                <!-- li><a href="/nppsorg.html">NPPS organization</a><li>
-                <li><a href="/who.html">Who we are</a></li>
-                <li><a href="/howto-website.html">Website info and howto</a></li>
-                
-                <li class="divider"></li>
-                <li><a href="https://www.bnl.gov/physics/" target="_blank">Physics at BNL</a></li>
-                <li><a href="https://www.sdcc.bnl.gov/" target="_blank">Scientific computing at BNL</a></li>
-                <li><a href="https://hepsoftwarefoundation.org" target="_blank">Community software</a></li -->
-
-              </ul>
-            </li>
-          </ul>
-
-        </div>
-      </div>
-    </div>
