@@ -1,10 +1,15 @@
 ---
 title: Fun4All
-abbrev: fund4all
+abbrev: fun4all
 layout: default
 weight: 2
 ---
-# fun4all
+# Fun4all
+[Fun4all diagram]({{ '/assets/fun4all/fun4all_diagram.html' | relative_url }})
 
-![My helpful screenshot]({{ '/images/fun4all/fun4all_diagram_1.png' | relative_url }}){:class="img-responsive"}
+[Examples]({{ '/assets/fun4all/fun4all_examples.html' | relative_url }})
+
+[Tutorials]({{ '/assets/fun4all/fun4all_tutorials.html' | relative_url }})
+
+
 
