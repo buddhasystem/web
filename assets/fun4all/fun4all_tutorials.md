@@ -5,7 +5,6 @@ layout: default
 weight: 2
 ---
 ## Tutorials
-
-Work in progress
+[A 2006 short intro tutorial]({{ '/assets/fun4all/Fun4Spin.pdf' | relative_url }})
 
 
