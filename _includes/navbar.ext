@@ -24,20 +24,21 @@
 		 
                </ul>
             </li>
-            
+	  </ul>            
  
 <!----------------- SOFTWARE ----------------------------------------------->
+        <div class="navbar-collapse collapse" id="navbar-main">
+          <ul class="nav navbar-nav">
              <li class="dropdown">
               <a class="dropdown-toggle" data-toggle="dropdown" href="{{ '/index.html | relative_url }}" id="projects_menu">Software<span class="caret"></span></a>
-                <ul class="dropdown-menu" aria-labelledby="experiment_menu">
+                <ul class="dropdown-menu" aria-labelledby="software_menu">
 		 {% assign items = site.software | sort: 'weight' %}
                  {% for item in items %}
                    <li><a href="{{ item.url | relative_url }}">{{ item.title }}</a></li>
                  {% endfor %}
                </ul>
             </li>
-
-          </ul>
+	  </ul>
 
 
 <!----------------- ABOUT ----------------------------------------------->

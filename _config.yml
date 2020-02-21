@@ -26,7 +26,7 @@ collections:
     permalink: /activities/:title.html
   experiment:
     output: true
-    permalink: /experiments/:title.html
+    permalink: /experiment/:title.html
   software:
     output: true
     permalink: /software/:title.html
