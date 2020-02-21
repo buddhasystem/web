@@ -10,10 +10,16 @@
 
 @media (min-width: 1200px) {
   .container {
-    width: 970px;
+      width: 970px;
   }
 }
 
+
+.main-container {
+      width: 970px;
+      margin: 0 auto;
+      min-height: 100vh;
+  }
 
 /*
  * Centered image
@@ -146,7 +152,7 @@
 
 
 /*
- * Footer
+ * Footers
  */
 
 
@@ -157,8 +163,16 @@
   background-color: #f9f9f9;
   border-top: 1px solid #e5e5e5;
 }
+
 .blog-footer p:last-child {
   margin-bottom: 0;
+}
+
+.main-footer {
+    width: 970px;
+    margin: 0 auto;
+    position: absolute;
+    bottom: 0;
 }
 
 .navbar-nav {
