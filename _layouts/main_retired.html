@@ -1,0 +1,17 @@
+<h2>News  &nbsp; &nbsp; <font size="4"><a href="/announcements">More info</a></font></h2>
+<!-- Important announcements from announcements/_posts -->
+  {% assign sitedate = site.time | date: "%Y-%m-%d"   %}
+  {% for post in site.categories.announcements %}
+    {% assign stopdate = post.until | string_to_date | date: "%Y-%m-%d" %}
+    {% if stopdate > sitedate %}
+<div class="row alert alert-news">
+  <p class="lead event-announce">
+    <span class="glyphicon {{ post.symbol }}" aria-hidden="true"></span> {{ post.title }}
+    <!-- >&nbsp; (<a href="{{ post.link }}">more info</a>) -->
+  </p>
+</div>
+    {% endif %}
+  {% endfor %}
+
+ <!-- Various boxes with more information -->
+

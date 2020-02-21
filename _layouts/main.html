@@ -13,34 +13,16 @@ layout: default
           <div class="col-md-7">
             <p class="lead">
 
-PHENIX, the Pioneering High Energy Nuclear Interaction eXperiment, is an exploratory experiment for the investigation of high energy collisions of heavy ions and protons.
-It is the largest of the four experiments that have taken data at the Relativistic Heavy Ion Collider. Data-taken was finished in 2016 and the PHENIX Collaboration is now
-actively analyzing large data samples collected, some of those being with a unique physics reach.
+	      PHENIX, the Pioneering High Energy Nuclear Interaction eXperiment,
+	      is an exploratory experiment for the investigation of high energy collisions of heavy ions and protons.
+	      It is the largest of the four experiments that have taken data at the Relativistic Heavy Ion Collider.
+	      Data-taking was finished in 2016 and the PHENIX Collaboration is now analyzing large data
+	      samples collected, prioritizing those with a unique physics reach.
 
 	    </p>
 
       </div>
       </div>
-
-<h2>News  &nbsp; &nbsp; <font size="4"><a href="/announcements">More info</a></font></h2>
-
-<!-- Important announcements from announcements/_posts -->
-  {% assign sitedate = site.time | date: "%Y-%m-%d"   %}
-  {% for post in site.categories.announcements %}
-    {% assign stopdate = post.until | string_to_date | date: "%Y-%m-%d" %}
-    {% if stopdate > sitedate %}
-<div class="row alert alert-news">
-  <p class="lead event-announce">
-    <span class="glyphicon {{ post.symbol }}" aria-hidden="true"></span> {{ post.title }}
-    <!-- >&nbsp; (<a href="{{ post.link }}">more info</a>) -->
-  </p>
-</div>
-    {% endif %}
-  {% endfor %}
-
- <!-- Various boxes with more information -->
-
-  {{ content }}
 
   </div>
 </div>
