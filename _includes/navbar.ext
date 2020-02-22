@@ -63,14 +63,6 @@
               <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="about_menu">About<span class="caret"></span></a>
               <ul class="dropdown-menu" aria-labelledby="about_menu">
                 <li><a href="{{ '/contact.html' | relative_url }}">Contact us</a></li>
-                <!-- li><a href="/nppsorg.html">NPPS organization</a><li>
-                <li><a href="/who.html">Who we are</a></li>
-                <li><a href="/howto-website.html">Website info and howto</a></li>
-                
-                <li class="divider"></li>
-                <li><a href="https://www.bnl.gov/physics/" target="_blank">Physics at BNL</a></li>
-                <li><a href="https://www.sdcc.bnl.gov/" target="_blank">Scientific computing at BNL</a></li>
-                <li><a href="https://hepsoftwarefoundation.org" target="_blank">Community software</a></li -->
 
               </ul>
             </li>
@@ -80,47 +72,3 @@
       </div>
     </div>
 
-
-            <!-- li class="dropdown">
-              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="wg_menu">Tech Teams<span class="caret"></span></a>
-                <ul class="dropdown-menu" aria-labelledby="activities_menu">
-                  {% for techteam in site.techteams %}
-                    <li><a href="{{ techteam.url }}">{{ techteam.title }}</a></li>
-                  {% endfor %}
-                  <li class="divider"></li>
-                  <li><a href="/who.html">Who we are</a></li>
-               </ul>
-            </li -->
-            
-            <!-- li class="dropdown">
-              <a class="dropdown-toggle" data-toggle="dropdown" href="/projects.html" id="projects_menu">Software<span class="caret"></span></a>
-                <ul class="dropdown-menu" aria-labelledby="projects_menu">
-                  {% for software in site.software %}
-                    <li><a href="{{ software.url }}">{{ software.title }}</a></li>
-                  {% endfor %}
-                  <li class="divider"></li>
-                  <li><a href="https://hepsoftware.org"  target="_blank">HEP software knowledge base</a></li>
-                </ul>
-            </li -->
-            
-            <!-- li class="dropdown">
-              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="communication_menu">Events<span class="caret"></span></a>
-                <ul class="dropdown-menu" aria-labelledby="communication_menu">
-                  <li><a href="/events-calendar.html">NPPS events calendar</a></li>
-                  <li><a href="https://indico.bnl.gov/category/255/" target="_blank">NPPS meeting agendas</a></li>
-                  <li><a href="https://docs.google.com/document/d/1YfTyXPeXNQU4XUB28bvHJolgyBIJ2bfrd0u9Gd3WD70/edit?usp=sharing" target="_blank">NPPS meeting notes</a></li>
-
-
-
-
-
-    <li><a href="/announcements.html">NPPS news </a></li>
-    <li><a href="/seminars.html">BNL Physics S&C seminar series</a></li>
-    <li><a href="/bnl-jlab-roundtable.html">BNL/JLab S&C round table</a></li>
-                  <li class="divider"></li>
-    <li><a href="https://hepsoftwarefoundation.org/activities/software-forum.html" target="_blank">HSF software forum</a></li>
-
-                  <li><a href="https://hepsoftwarefoundation.org/Schools/events.html" target="_blank">HSF training calendar</a></li>
-                  <li><a href="https://calendar.google.com/calendar/embed?src=e4v33e1a1drbncdle1n03ahpcs%40group.calendar.google.com&ctz=Europe/Amsterdam"  target="_blank">HSF community calendar</a></li>
-                </ul>
-            </li -->
