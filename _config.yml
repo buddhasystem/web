@@ -33,9 +33,9 @@ collections:
   software:
     output: true
     permalink: /software/:title.html
-  techteams:
+  about:
     output: true
-    permalink: /techteams/:title.html
+    permalink: /about/:title.html
   people:
     output: true
     permalink: /people/:title.html
