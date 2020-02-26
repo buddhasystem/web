@@ -11,7 +11,9 @@ weight: 2
 
 
 {% tablerow image in images cols:2 %}
-<a href="{{ image.path | relative_url }}">
+<a href="{{ '/utils/image.html' | relative_url }}">
+
+<!-- a href="{{ image.path | relative_url }}" -->
 <img src="{{ image.path | relative_url }}" alt="{{ image.title}}" width="400px"/>&nbsp;<br/><p/>
 </a>
 {% endtablerow %}
