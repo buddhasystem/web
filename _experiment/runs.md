@@ -8,10 +8,10 @@ weight: 4
 # Summary of Runs
 
 
-<table width="80%">
+<table width="100%">
 
 <tr>
-<th>run</th><th>period</th><th>coordinator</th>
+<th>Run</th><th>Period</th><th>Coordinator</th>
 </tr>
 
 {% for run in site.data.runs %}
