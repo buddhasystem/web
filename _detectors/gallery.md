@@ -1,14 +1,19 @@
 ---
-title: PHENIX Gallery
+title: PHENIX Photo Gallery
 abbrev: phenix_gallery
 layout: default
 weight: 2
 ---
-# Gallery
+# PHENIX Photo Gallery
 
 {% assign images = site.data.gallery | sort: 'weight' %}
-<ul class="photo-gallery">
-  {% for image in images %}
-    <li><img src="{{ image.path | relative_url }}" alt="{{ image.title}}" width="100px"/></li>
-  {% endfor %}
-</ul>
+<table>
+
+
+{% tablerow image in images cols:2 %}
+<a href="{{ image.path | relative_url }}">
+<img src="{{ image.path | relative_url }}" alt="{{ image.title}}" width="400px"/>&nbsp;<br/><p/>
+</a>
+{% endtablerow %}
+
+</table>
