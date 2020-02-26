@@ -12,8 +12,9 @@ level: 0
 <tr>
 <th>Name</th><th>Role</th>
 </tr>
+{% assign items = site.detectors | sort: 'weight' %}
 
-{% for detector in site.detectors %}
+{% for detector in items %}
 
 {% if detector.category == "central" %}
 <tr>
