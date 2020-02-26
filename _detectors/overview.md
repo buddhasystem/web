@@ -3,6 +3,7 @@ title: Detectors Overview
 abbrev: detectors_overview
 layout: default
 weight: 1
+level: 0
 ---
 # Detectors Overview
 

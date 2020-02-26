@@ -33,7 +33,7 @@
                 <ul class="dropdown-menu" aria-labelledby="detectors_menu">
 		 {% assign items = site.detectors | sort: 'weight' %}
                  {% for item in items %}
-		 {% if item.weight == 0 %}
+		 {% if item.level != 0 %}
 		    {% continue %}
 		 {% endif %}
                    <li><a href="{{ item.url | relative_url }}">{{ item.title }}</a></li>
