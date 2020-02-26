@@ -11,7 +11,7 @@ weight: 4
 <table width="100%">
 
 <tr>
-<th>Run</th><th>Period</th><th>Coordinator</th>
+<th>Run</th><th>Period</th><th>Coordinator(s)</th>
 </tr>
 
 {% for run in site.data.runs %}

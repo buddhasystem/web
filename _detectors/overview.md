@@ -6,7 +6,7 @@ weight: 1
 ---
 # Detectors Overview
 
-# Archived presentations
+### Archived presentations
 [Overview of PHENIX detectors, BNL 2018]({{ '/assets/detectors/PHENIXtheDetector.pdf' | relative_url }})
 
 ### References
