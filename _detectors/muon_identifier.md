@@ -1,6 +1,6 @@
 ---
 name: Muon Identifier
-role: Identifies muon particles
+role: Identifies muon particles.
 abbrev: muon_identifier
 layout: default
 weight: 1
