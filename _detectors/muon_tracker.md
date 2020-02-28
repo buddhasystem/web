@@ -7,4 +7,5 @@ weight: 0
 level: 1
 category: muon
 ---
-# Muon Tracker
+# {{ page.name }}
+

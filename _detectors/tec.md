@@ -7,5 +7,4 @@ weight: 4
 level: 1
 category: central
 ---
-# TEX
-
+# {{ page.name }}

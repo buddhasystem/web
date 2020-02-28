@@ -7,5 +7,4 @@ weight: 6
 level: 1
 category: central
 ---
-# TOF
-
+# {{ page.name }}

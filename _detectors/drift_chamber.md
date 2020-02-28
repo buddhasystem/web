@@ -7,4 +7,5 @@ weight: 0
 level: 1
 category: central
 ---
-# Drift Chamber
+# {{ page.name }}
+

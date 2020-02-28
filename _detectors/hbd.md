@@ -7,5 +7,4 @@ weight: 3
 level: 1
 category: central
 ---
-# HBD
-
+# {{ page.name }}

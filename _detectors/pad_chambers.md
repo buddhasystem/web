@@ -7,4 +7,4 @@ weight: 1
 level: 1
 category: central
 ---
-# Pad Chambers
+# {{ page.name }}

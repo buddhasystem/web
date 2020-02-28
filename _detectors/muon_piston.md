@@ -7,4 +7,4 @@ weight: 2
 level: 1
 category: muon
 ---
-# Muon Piston Calorimeter
+# {{ page.name }}

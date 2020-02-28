@@ -7,5 +7,5 @@ weight: 0
 level: 1
 category: event
 ---
-{% include detector_category.md %}
+# {{ page.name }}
 
