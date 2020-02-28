@@ -8,7 +8,7 @@ level: 0
 # Detectors Overview
 
 ### Archived presentations
-[Overview of PHENIX detectors, BNL 2018]({{ '/assets/detectors/PHENIXtheDetector.pdf' | relative_url }})
+[Overview of PHENIX detectors, BNL 2018]({{ '/assets/detectors/phenix/PHENIXtheDetector.pdf' | relative_url }})
 
 ### References
 
