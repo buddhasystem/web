@@ -8,3 +8,5 @@ level: 1
 category: central
 ---
 # EMCAL
+### Archived papers
+[PHENIX Electromagnetic Calorimeter (EMCal) – Detector Basics]({{ '/assets/detectors/emcal/emcal_shortdoc.pdf' | relative_url }})
