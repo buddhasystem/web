@@ -1,16 +1,27 @@
 # ATTENTION
 
-Until further notice this web site is in the inital stages of preparation and is not expected to work or have useful content at any gien time.
+** Work in Progress **
+
+Until further notice this web site is in the inital stages of preparation and at present is not expected to
+be 100% functional or have immediately useful content.
 
 
 # SCOPE
 
-This is a static site intended to preserve the newly developed technical documentation for the PHENIX software infrastructure.
+This is a static site intended to preserve curated documentation for the PHENIX experiment,
+including technical write-ups on the PHENIX software and its infrastructure.
+
+Please note that the static nature of the site also implies lack of
+native database query functions, authentication and authorization etc.
+Where needed, such services will be hosted separately and links will be
+provided.
+
 
 # TECHNICAL
 
 ## Gems
-Pay attention to the following dependencies (need to be installed and also included in the Gemfile in this folder):
+Pay attention to the following dependencies (need to be installed and
+also included in the Gemfile in this folder):
 ```
 gem "jekyll", "~> 4.0"
 gem 'jekyll-mentions', '~> 1.5', '>= 1.5.1'
