@@ -17,9 +17,7 @@ level: 0
 {% for detector in items %}
 
 {% if detector.category == "muon" %}
-<tr>
-<td><a href="{{ detector.url | relative_url }}">{{ detector.name }}</a></td><td>{{ detector.role }}</td>
-</tr>
+{% include detector_category.md content=detector %}
 {% endif %}
 
 {% endfor %}
