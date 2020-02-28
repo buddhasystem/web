@@ -1,11 +1,12 @@
 ---
-title: Muon Arm
+title: Muon Arm Detectors
 abbrev: muon_arm
 layout: default
 weight: 4
 level: 0
+category: "muon"
 ---
-# Muon Arm Detectors
+# {{ page.title }}
 
 <table WIDTH="100%">
 
@@ -16,7 +17,7 @@ level: 0
 
 {% for detector in items %}
 
-{% if detector.category == "muon" %}
+{% if detector.category ==  page.category %}
 {% include detector_category.md content=detector %}
 {% endif %}
 
