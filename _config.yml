@@ -27,6 +27,9 @@ collections:
   experiment:
     output: true
     permalink: /experiment/:title.html
+  runs:
+    output: true
+    permalink: /runs/:title.html
   detectors:
     output: true
     permalink: /detectors/:title.html
