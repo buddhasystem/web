@@ -1,5 +1,5 @@
 ---
-name: Run 05
+title: Run 05
 layout: default
 abbrev: run05
 period: 2004-2005

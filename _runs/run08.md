@@ -1,5 +1,5 @@
 ---
-name: Run 08
+title: Run 08
 layout: default
 abbrev: run08
 period: 2007-2008

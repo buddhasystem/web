@@ -1,5 +1,5 @@
 ---
-name: Run 15
+title: Run 15
 layout: default
 abbrev: run15
 period: 2015

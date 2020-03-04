@@ -1,5 +1,5 @@
 ---
-name: Run 11
+title: Run 11
 layout: default
 abbrev: run11
 period: 2010-2011
