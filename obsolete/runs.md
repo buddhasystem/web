@@ -14,9 +14,9 @@ weight: 3
 <th>Run</th><th>Period</th><th>Coordinator(s)</th>
 </tr>
 
-{% for run in site.runs %}
+{% for run in site.data.runs %}
 <tr>
-<td>{{ run.name }}</td><td>{{ run.period }}</td><td>{{ run.coordinator }}</td>
+<td>{{ run.run }}</td><td>{{ run.period }}</td><td>{{ run.coordinator }}</td>
 </tr>
 {% endfor %}
 
