@@ -15,9 +15,9 @@ weight: 3
 </tr>
 
 {% for run in site.runs %}
-<tr>
-<td>{{ run.title }}</td><td>{{ run.period }}</td><td>{{ run.coordinator }}</td>
-</tr>
+
+{% include run_short.md run=run %}
+
 {% endfor %}
 
 </table>
