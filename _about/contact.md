@@ -12,7 +12,7 @@ These pages are designed and maintained by the PHENIX Data and Analysis Preserva
 <table width="40%">
 {% for who in site.data.people %}
 <tr>
-<td>{{ who.full }}</td><td>{{ who.email }}</td>
+<td>{{ who.full }}</td><td><a href="mailto:{{ who.email }}">{{ who.email }}</a></td>
 </tr>
 {% endfor %}
 </table>
