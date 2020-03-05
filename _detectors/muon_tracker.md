@@ -9,4 +9,6 @@ category: muon
 ---
 # {{ page.title }}
 
-{% include detector_detail.md %}
+{% assign detector = page.abbrev %}
+
+{% include detector_detail.md detector=detector %}
