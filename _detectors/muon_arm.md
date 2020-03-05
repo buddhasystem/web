@@ -4,23 +4,6 @@ abbrev: muon_arm
 layout: default
 weight: 4
 level: 0
-category: "muon"
+detector_category: "muon"
 ---
-# {{ page.title }}
-
-<table WIDTH="100%">
-
-<tr>
-<th>Name</th><th>Role</th>
-</tr>
-{% assign items = site.detectors | sort: 'weight' %}
-
-{% for detector in items %}
-
-{% if detector.category ==  page.category %}
-{% include detector_category.md content=detector %}
-{% endif %}
-
-{% endfor %}
-
-</table>
+{% include detector_category_selection.md %}
