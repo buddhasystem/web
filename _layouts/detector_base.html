@@ -1,0 +1,14 @@
+
+{% include top.html %}
+
+{{ content }}
+
+
+{% assign detector = page.abbrev %}
+{% assign image = page.image %}
+{% assign image_title = page.image_title %}
+
+{% include detector_detail.md detector=detector image=image image_title=image_title %}
+
+{% include bottom.html %}
+  
