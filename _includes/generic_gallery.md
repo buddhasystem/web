@@ -2,7 +2,7 @@
 {% assign type=include.type %}
 {% assign images = site.data.gallery | where: "type", type | sort: 'weight' %}
 
-<table>
+<table border="1" width="100%">
 
 {% tablerow image in images cols:2 %}
 

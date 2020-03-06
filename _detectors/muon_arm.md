@@ -2,7 +2,7 @@
 title: Muon Arm Detectors
 abbrev: muon_arm
 layout: default
-weight: 4
+weight: 30
 level: 0
 detector_category: "muon"
 ---

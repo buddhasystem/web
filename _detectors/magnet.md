@@ -2,7 +2,7 @@
 title: Magnet
 abbrev: magnet
 layout: default
-weight: 6
+weight: 50
 level: 0
 ---
 # Magnet

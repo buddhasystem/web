@@ -2,7 +2,7 @@
 title: Event Characterization Detectors
 abbrev: event_characterization
 layout: default
-weight: 5
+weight: 40
 level: 0
 detector_category: "event"
 ---

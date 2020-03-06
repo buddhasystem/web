@@ -39,7 +39,27 @@
   title: 
   type: photo
 
-#
-- path: /images/photos/phenix-hr.jpg
+### RUN CONFIGURATION DIAGRAMS
+- path: /images/runs/Phenix_2006.jpg
+  title: 2006
+  type: run_configuration
+
+- path: /images/runs/Phenix_2007.jpg
   title: 
-  type: test
+  type: run_configuration
+
+- path: /images/runs/Phenix_2008.jpg
+  title: 
+  type: run_configuration
+
+- path: /images/runs/Phenix_2010.jpg
+  title: 
+  type: run_configuration
+
+- path: /images/runs/Phenix_2011.jpg
+  title: 
+  type: run_configuration
+
+- path: /images/runs/Phenix_2012.jpg
+  title: 
+  type: run_configuration
