@@ -1,6 +1,6 @@
 ---
 title: Run 12
-layout: default
+layout: run_base
 abbrev: run12
 period: 2011-2012
 coordinator: Xiaochun He, GSU.

@@ -1,6 +1,6 @@
 ---
 title: Run 11
-layout: default
+layout: run_base
 abbrev: run11
 period: 2010-2011
 coordinator: Takao Sakaguchi, BNL.

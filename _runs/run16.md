@@ -1,6 +1,6 @@
 ---
 title: Run 16
-layout: default
+layout: run_base
 abbrev: run16
 period: 2016
 coordinator: Denis Jouan, IPNO.

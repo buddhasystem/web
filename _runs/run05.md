@@ -1,6 +1,6 @@
 ---
 title: Run 05
-layout: default
+layout: run_base
 abbrev: run05
 period: 2004-2005
 coordinator: John Lajoie, ISU.

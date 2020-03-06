@@ -40,6 +40,31 @@
   type: photo
 
 ### RUN CONFIGURATION DIAGRAMS
+- path: /images/logos/under-construction-1-clipart.png
+  title: Run 01 Configuration Diagram
+  run: run01
+  type: run_configuration
+
+- path: /images/logos/under-construction-1-clipart.png
+  title: Run 02 Configuration Diagram
+  run: run02
+  type: run_configuration
+
+- path: /images/logos/under-construction-1-clipart.png
+  title: Run 03 Configuration Diagram
+  run: run03
+  type: run_configuration
+
+- path: /images/logos/under-construction-1-clipart.png
+  title: Run 04 Configuration Diagram
+  run: run04
+  type: run_configuration
+
+- path: /images/logos/under-construction-1-clipart.png
+  title: Run 05 Configuration Diagram
+  run: run05
+  type: run_configuration
+
 - path: /images/run_configuration/Phenix_2006.jpg
   title: Run 06 Configuration Diagram
   run: run06
@@ -53,6 +78,11 @@
 - path: /images/run_configuration/Phenix_2008.jpg
   title: Run 08 Configuration Diagram
   run: run08
+  type: run_configuration
+
+- path: /images/logos/under-construction-1-clipart.png
+  title: Run 09 Configuration Diagram
+  run: run09
   type: run_configuration
 
 - path: /images/run_configuration/Phenix_2010.jpg
@@ -69,3 +99,25 @@
   title: Run 12 Configuration Diagram
   run: run12
   type: run_configuration
+
+- path: /images/logos/under-construction-1-clipart.png
+  title: Run 13 Configuration Diagram
+  run: run13
+  type: run_configuration
+
+- path: /images/logos/under-construction-1-clipart.png
+  title: Run 14 Configuration Diagram
+  run: run14
+  type: run_configuration
+
+- path: /images/logos/under-construction-1-clipart.png
+  title: Run 15 Configuration Diagram
+  run: run15
+  type: run_configuration
+
+- path: /images/logos/under-construction-1-clipart.png
+  title: Run 16 Configuration Diagram
+  run: run16
+  type: run_configuration
+
+# 
