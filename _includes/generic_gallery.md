@@ -7,7 +7,7 @@
 {% tablerow image in images cols:2 %}
 
 {% if image.title !='' %}
-{{ image.title }}<br/>
+<b>{{ image.title }}</b><br/>
 {% endif %}
 
 <a href="{{ image.path | relative_url }}">
