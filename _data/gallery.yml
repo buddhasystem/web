@@ -40,26 +40,32 @@
   type: photo
 
 ### RUN CONFIGURATION DIAGRAMS
-- path: /images/runs/Phenix_2006.jpg
-  title: 2006
+- path: /images/run_configuration/Phenix_2006.jpg
+  title: Run 06 Configuration Diagram
+  run: run06
   type: run_configuration
 
-- path: /images/runs/Phenix_2007.jpg
-  title: 
+- path: /images/run_configuration/Phenix_2007.jpg
+  title: Run 07 Configuration Diagram
+  run: run07
   type: run_configuration
 
-- path: /images/runs/Phenix_2008.jpg
-  title: 
+- path: /images/run_configuration/Phenix_2008.jpg
+  title: Run 08 Configuration Diagram
+  run: run08
   type: run_configuration
 
-- path: /images/runs/Phenix_2010.jpg
-  title: 
+- path: /images/run_configuration/Phenix_2010.jpg
+  title: Run 10 Configuration Diagram
+  run: run10
   type: run_configuration
 
-- path: /images/runs/Phenix_2011.jpg
-  title: 
+- path: /images/run_configuration/Phenix_2011.jpg
+  title: Run 11 Configuration Diagram
+  run: run11
   type: run_configuration
 
-- path: /images/runs/Phenix_2012.jpg
-  title: 
+- path: /images/run_configuration/Phenix_2012.jpg
+  title: Run 12 Configuration Diagram
+  run: run12
   type: run_configuration
