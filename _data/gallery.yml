@@ -84,6 +84,7 @@
 - path: /images/run_configuration/Phenix_2007.jpg
   title: Run 07 Configuration Diagram
   run: run07
+  gallery: yes
   type: run_configuration
 
 - path: /images/run_configuration/Phenix_2008.jpg
