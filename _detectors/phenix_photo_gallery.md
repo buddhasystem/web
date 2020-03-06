@@ -1,13 +1,13 @@
 ---
 title: PHENIX Photo Gallery
-abbrev: phenix_gallery
+abbrev: phenix_photo_gallery
 layout: default
 weight: 2
 level: 0
 ---
 # PHENIX Photo Gallery
 
-{% assign images = site.data.gallery | sort: 'weight' %}
+{% assign images = site.data.gallery | where: "type", "photo" | sort: 'weight' %}
 
 <table>
 
