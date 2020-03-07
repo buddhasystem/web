@@ -137,7 +137,23 @@
   type: run_configuration
 
 ### LUMINOSITY PLOTS
-- path: /images/logos/under-construction-1-clipart.png
-  title: Run 01 Configuration Diagram
+- path: /images/lumi/run14/lumi.gif
+  title: 
   run: run14
   type: lumi
+
+- path: /images/lumi/run14/lumi_day.gif
+  title: 
+  run: run14
+  type: lumi
+
+- path: /images/lumi/run14/vertex.gif
+  title: 
+  run: run14
+  type: lumi
+
+- path: /images/lumi/run14/lumi_zdc_day.gif
+  title: 
+  run: run14
+  type: lumi
+

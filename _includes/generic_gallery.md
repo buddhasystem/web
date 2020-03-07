@@ -4,7 +4,7 @@
 {% assign images = site.data.gallery | where: "type", type | where: "gallery", true | sort: 'weight' %}
 
 {% if run and run!='' %}
-{{ run }} +
+{% assign images = images | where: "run", run %}
 {% endif %}
 
 <table width="100%">
