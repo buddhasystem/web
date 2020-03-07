@@ -161,3 +161,33 @@
   gallery: yes
   type: lumi
 
+- path: /images/lumi/run14/hruntime.gif
+  title: 
+  run: run14
+  gallery: yes
+  type: lumi
+
+- path: /images/lumi/run14/hoursday.gif
+  title: 
+  run: run14
+  gallery: yes
+  type: lumi
+
+- path: /images/lumi/run14/cadhoursday.gif
+  title: 
+  run: run14
+  gallery: yes
+  type: lumi
+
+- path: /images/lumi/run14/plotzdc_2014_200_He3Au.gif
+  title: 
+  run: run14
+  gallery: yes
+  type: lumi
+
+- path: /images/lumi/run14/peff_2014_200_He3Au.gif
+  title: 
+  run: run14
+  gallery: 
+  type: lumi
+
