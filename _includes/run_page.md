@@ -8,11 +8,12 @@
 {% if length!=0 %}
 {% assign image=images[0].path %}
 {% assign title=images[0].title %}
+{% assign width=images[0].width %}
 
 {% assign detector = page.abbrev %}
 
 {% if image!='' %}
-{% include include_image.md detector=detector image=image title=title %}
+{% include include_image.md detector=detector image=image title=title width=width %}
 {% endif %}
 
 {% endif %}

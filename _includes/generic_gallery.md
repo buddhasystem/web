@@ -8,7 +8,20 @@
 
 {% assign type=include.type %}
 {% assign run=include.run %}
-{% assign images = site.data.gallery | where: "type", type | where: "gallery", true | sort: 'weight' %}
+{% assign columns=include.columns %}
+
+{% assign cols=2 %}
+{% if columns %}
+{% assign cols=columns %}
+{% endif %}
+
+{% assign gallery="main" %}
+{% if include.gallery %}
+{% assign gallery=include.gallery %}
+{% endif %}
+
+{% assign images = site.data.gallery | where: "type", type | where: "gallery", gallery | sort: 'weight' %}
+
 
 {% if run and run!='' %}
 {% assign images = images | where: "run", run %}
@@ -17,10 +30,10 @@
 {% assign length = images | size %}
 
 {% if length!=0 %}
-# {{ title }}
+<h3> {{ title }} </h3>
 <table width="100%">
 
-{% tablerow image in images cols:2 %}
+{% tablerow image in images cols:cols %}
 
 {% if image.title !='' %}
 <b>{{ image.title }}</b><br/>
