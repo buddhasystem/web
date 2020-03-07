@@ -1,6 +1,11 @@
 # {{ page.title }}
 {% assign type=include.type %}
+{% assign run=include.run %}
 {% assign images = site.data.gallery | where: "type", type | where: "gallery", true | sort: 'weight' %}
+
+{% if run and run!='' %}
+{{ run }} +
+{% endif %}
 
 <table width="100%">
 

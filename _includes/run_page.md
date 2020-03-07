@@ -1,3 +1,5 @@
+{% include run_bar.md %}
+<hr/>
 # {{ page.title }}
 {% assign images = site.data.gallery | where: "type", "run_configuration" | where: "run", page.abbrev | sort: 'weight' %}
 {% assign length = images | size %}

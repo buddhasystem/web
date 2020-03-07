@@ -136,4 +136,8 @@
   run: run16
   type: run_configuration
 
-# 
+### LUMINOSITY PLOTS
+- path: /images/logos/under-construction-1-clipart.png
+  title: Run 01 Configuration Diagram
+  run: run14
+  type: luni
