@@ -1,4 +1,11 @@
-# {{ page.title }}
+
+{% assign title=page.title %}
+{% assign alt_title=include.title %}
+
+{% if alt_title and alt_title!='' %}
+{% assign title = alt_title %}
+{% endif %}
+
 {% assign type=include.type %}
 {% assign run=include.run %}
 {% assign images = site.data.gallery | where: "type", type | where: "gallery", true | sort: 'weight' %}
@@ -7,6 +14,10 @@
 {% assign images = images | where: "run", run %}
 {% endif %}
 
+{% assign length = images | size %}
+
+{% if length!=0 %}
+# {{ title }}
 <table width="100%">
 
 {% tablerow image in images cols:2 %}
@@ -21,3 +32,5 @@
 {% endtablerow %}
 
 </table>
+
+{% endif %}

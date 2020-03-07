@@ -140,20 +140,24 @@
 - path: /images/lumi/run14/lumi.gif
   title: 
   run: run14
+  gallery: yes
   type: lumi
 
 - path: /images/lumi/run14/lumi_day.gif
   title: 
   run: run14
+  gallery: yes
   type: lumi
 
 - path: /images/lumi/run14/vertex.gif
   title: 
   run: run14
+  gallery: yes
   type: lumi
 
 - path: /images/lumi/run14/lumi_zdc_day.gif
   title: 
   run: run14
+  gallery: yes
   type: lumi
 
