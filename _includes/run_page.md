@@ -2,6 +2,7 @@
 <hr/>
 <center><h2>{{ page.title }}</h2></center>
 <hr/>
+
 {% assign images = site.data.gallery | where: "type", "run_configuration" | where: "run", page.abbrev | sort: 'weight' %}
 {% assign length = images | size %}
 
