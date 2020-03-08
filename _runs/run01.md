@@ -1,7 +1,7 @@
 ---
 title: Run 01
 layout: run_base
-abbrev: run01
+run: run01
 period: 1999-2001
 coordinator: Achim Franz, BNL.
 periods: [{system: foo, energy: 10},{system: moo, energy: 20}]

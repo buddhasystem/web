@@ -1,7 +1,7 @@
 ---
 title: Run 14
 layout: run_base
-abbrev: run14
+run: run14
 period: 2014
 coordinator: Klaus Dehmelt, SUNYSB.
 ---
