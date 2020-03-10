@@ -2,6 +2,7 @@
 title: Concept
 abbrev: concept
 layout: default
+level: 0
 weight: 1
 ---
 

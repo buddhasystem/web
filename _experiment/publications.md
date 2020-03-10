@@ -2,7 +2,8 @@
 title: Publications
 abbrev: publications
 layout: default
-weight: 4
+level: 0
+weight: 30
 ---
 # Publications
 

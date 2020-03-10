@@ -49,6 +49,19 @@
   gallery: main
   type: photo
 
+### RUN INFO DIAGRAMS
+- path: /images/run_info/Run1-8-data.jpg
+  title: Runs 01-08 summary table
+  height: 400
+  gallery: aux
+  type: run_info
+
+- path: /images/run_info/Run9-16-data.jpg
+  title: Runs 09-16 summary table
+  height: 400
+  gallery: aux
+  type: run_info
+
 ### RUN CONFIGURATION DIAGRAMS
 - path: /images/logos/under-construction-1-clipart.png
   title: Run 01 Configuration Diagram

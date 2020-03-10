@@ -2,7 +2,8 @@
 title: Summary of Runs
 layout: default
 abbrev: runs
-weight: 3
+level: 0
+weight: 20
 ---
 
 # Summary of Runs
@@ -21,3 +22,5 @@ weight: 3
 {% endfor %}
 
 </table>
+<hr/>
+{% include generic_gallery.md type="run_info" gallery="aux" title="Summary tables (click for larger image)" %}

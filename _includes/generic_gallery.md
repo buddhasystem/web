@@ -40,7 +40,12 @@
 {% endif %}
 
 <a href="{{ image.path | relative_url }}">
-<img src="{{ image.path | relative_url }}" alt="{{ image.title}}" height="300px"/>&nbsp;<br/><p/>
+{% assign height=300 %}
+{% if image.height %}
+{% assign height=image.height %}
+{% endif %}
+
+<img src="{{ image.path | relative_url }}" alt="{{ image.title}}" height="{{ height }}px"/>&nbsp;<br/><p/>
 </a>
 {% endtablerow %}
 

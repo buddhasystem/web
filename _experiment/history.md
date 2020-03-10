@@ -2,7 +2,8 @@
 title: History
 abbrev: history
 layout: default
-weight: 2
+level: 0
+weight: 10
 ---
 # History
 
