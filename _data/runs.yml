@@ -1,10 +1,10 @@
-- run: 01
+- run: run01
   period: 1999-2001
   coordinator: Achim Franz, BNL.
   rhic:
     - {species: '<sup>197</sup>Au<sup>79+</sup>+<sup>197</sup>Au<sup>79+</sup>', energy: 65.2}
 
-- run: 02
+- run: run02
   period: 2001-2002
   coordinator: Anthony D. Frawley, FSU.
   rhic:
@@ -12,61 +12,61 @@
     - {species: '<sup>197</sup>Au<sup>79+</sup>+<sup>197</sup>Au<sup>79+</sup>', energy: 9.8}
     - {species: 'polarized p+p', energy: 100.2}
 
-- run: 03
+- run: run03
   period: 2002-2003
   coordinator: Matthias Grosse Perdekamp, UIUC and RBRC.
   rhic:
     - {species: 'd+<sup>197</sup>Au<sup>79+</sup>', energy: 100.7+100}
     - {species: 'polarized p+p', energy: 100.2}
 
-- run: 04
+- run: run04
   period: 2003-2004
   coordinator: Terry C. Awes, ORNL.
   
-- run: 05
+- run: run05
   period: 2004-2005
   coordinator: John Lajoie, ISU.
 
-- run: 06
+- run: run06
   period: 2005-2006
   coordinator: Abhay Deshpande, SUNYSB and RBRC.
   
-- run: 07
+- run: run07
   period: 2006-2007
   coordinator: Michael J. Leitch, LANL.
   
-- run: 08
+- run: run08
   period: 2007-2008
   coordinator: Michael J. Leitch, LANL.
   
-- run: 09
+- run: run09
   period: 2008-2009
   coordinator: John Haggerty, BNL.
     
-- run: 10
+- run: run10
   period: 2009-2010
   coordinator: Stefan Bathe, RIKEN-BNL.
-- run: 11
+- run: run11
 
   period: 2010-2011
   coordinator: Takao Sakaguchi, BNL.
   
-- run: 12
+- run: run12
   period: 2011-2012
   coordinator: Xiaochun He, GSU.
 
-- run: 13
+- run: run13
   period: 2013
   coordinator: Hubert van Hecke, LANL.
   
-- run: 14
+- run: run14
   period: 2014
   coordinator: Klaus Dehmelt, SUNYSB.
   
-- run: 15
+- run: run15
   period: 2015
   coordinator: Douglas Fields, UNM; Itaru Nakagawa, Riken/RBRC (spin).
   
-- run: 16
+- run: run16
   period: 2016
   coordinator: Denis Jouan, IPNO.

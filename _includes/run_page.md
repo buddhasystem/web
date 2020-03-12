@@ -23,7 +23,7 @@
 {% endif %}
 </td>
 <td>
-Work in progress
+{% include rhic_record.md run=page.run %}
 </td>
 </tr>
 </table>

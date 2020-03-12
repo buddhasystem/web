@@ -1,14 +1,24 @@
-## RHIC Run Records
+{% if include.title %}
+## {{ include.title }}
+{% endif %}
+
 <table width="100%" border="1">
+<tr><td><hr/></td><td><hr/></td><td><hr/></td></tr>
 <tr>
 <th style="text-align:center">Run</th>
 <th style="text-align:center">Species</th>
 <th style="text-align:center">Energy (GeV/nucleon)</th>
 </tr>
 
-{% for run in site.data.runs %}
+{% if include.run %}
+{% assign run_list=site.data.runs | where: "run", include.run %}
+{% else %}
+{% assign run_list=site.data.runs %}
+{% endif %}
+
+{% for run in run_list %}
 {% if run.rhic %}
-{% assign runno=run.run %}
+{% assign runno=run.run | replace: "run", "" %}
 
 {% for period in run.rhic %}
 <tr>
@@ -19,6 +29,7 @@
 {% assign runno=' ' %}
 {% endfor %}
 
+<tr><td><hr/></td><td><hr/></td><td><hr/></td></tr>
 {% endif %}
-
 {% endfor %}
+</table>
