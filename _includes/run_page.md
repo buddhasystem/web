@@ -12,9 +12,21 @@
 {% assign width=images[0].width %}
 
 
+<table width="100%">
+<tr><th>Configuration Diagram</th><th>RHIC run record</th></tr>
+<tr>
+<td>
 {% if image!='' %}
-{% include include_image.md image=image title=title width=width %}
+{% include include_image.md image=image title='' width=width %}
+{% else %}
+&nbsp;
 {% endif %}
+</td>
+<td>
+Work in progress
+</td>
+</tr>
+</table>
 
 {% endif %}
 
