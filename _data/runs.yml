@@ -1,14 +1,23 @@
 - run: 01
   period: 1999-2001
   coordinator: Achim Franz, BNL.
+  rhic:
+    - {species: '<sup>197</sup>Au<sup>79+</sup>+<sup>197</sup>Au<sup>79+</sup>', energy: 65.2}
 
 - run: 02
   period: 2001-2002
   coordinator: Anthony D. Frawley, FSU.
+  rhic:
+    - {species: '<sup>197</sup>Au<sup>79+</sup>+<sup>197</sup>Au<sup>79+</sup>', energy: 100.0}
+    - {species: '<sup>197</sup>Au<sup>79+</sup>+<sup>197</sup>Au<sup>79+</sup>', energy: 9.8}
+    - {species: 'polarized p+p', energy: 100.2}
 
 - run: 03
   period: 2002-2003
   coordinator: Matthias Grosse Perdekamp, UIUC and RBRC.
+  rhic:
+    - {species: 'd+<sup>197</sup>Au<sup>79+</sup>', energy: 100.7+100}
+    - {species: 'polarized p+p', energy: 100.2}
 
 - run: 04
   period: 2003-2004
