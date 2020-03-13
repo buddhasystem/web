@@ -5,4 +5,4 @@ run: run04
 period: 2003-2004
 coordinator:  Terry C. Awes, ORNL.
 ---
-{% include run_page.md %}
+{% include run/run_page.md %}

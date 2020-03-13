@@ -5,4 +5,4 @@ run: run07
 period: 2006-2007
 coordinator: Michael J. Leitch, LANL.
 ---
-{% include run_page.md %}
+{% include run/run_page.md %}

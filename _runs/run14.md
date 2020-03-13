@@ -5,4 +5,4 @@ run: run14
 period: 2014
 coordinator: Klaus Dehmelt, SUNYSB.
 ---
-{% include run_page.md %}
+{% include run/run_page.md %}

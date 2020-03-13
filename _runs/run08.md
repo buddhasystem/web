@@ -5,4 +5,4 @@ layout: run_base
 period: 2007-2008
 coordinator: Michael J. Leitch, LANL.
 ---
-{% include run_page.md %}
+{% include run/run_page.md %}

@@ -7,4 +7,4 @@ coordinator: Stefan Bathe, RIKEN-BNL.
 image: 'images/runs/Phenix_2010.jpg'
 image_title: ''
 ---
-{% include run_page.md %}
+{% include run/run_page.md %}

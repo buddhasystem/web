@@ -5,4 +5,4 @@ run: run06
 period: 2005-2006
 coordinator: Abhay Deshpande, SUNYSB and RBRC.
 ---
-{% include run_page.md %}
+{% include run/run_page.md %}

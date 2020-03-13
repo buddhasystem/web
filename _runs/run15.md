@@ -5,4 +5,4 @@ run: run15
 period: 2015
 coordinator: Douglas Fields, UNM; Itaru Nakagawa, Riken/RBRC (spin).
 ---
-{% include run_page.md %}
+{% include run/run_page.md %}

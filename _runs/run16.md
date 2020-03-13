@@ -5,4 +5,4 @@ run: run16
 period: 2016
 coordinator: Denis Jouan, IPNO.
 ---
-{% include run_page.md %}
+{% include run/run_page.md %}

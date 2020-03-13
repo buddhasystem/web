@@ -5,4 +5,4 @@ run: run09
 period: 2008-2009
 coordinator: John Haggerty, BNL.
 ---
-{% include run_page.md %}
+{% include run/run_page.md %}

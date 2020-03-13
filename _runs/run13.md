@@ -5,4 +5,4 @@ run: run13
 period: 2013
 coordinator: Hubert van Hecke, LANL.
 ---
-{% include run_page.md %}
+{% include run/run_page.md %}

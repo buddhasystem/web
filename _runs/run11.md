@@ -7,4 +7,4 @@ coordinator: Takao Sakaguchi, BNL.
 image: 'images/runs/Phenix_2011.jpg'
 image_title: ''
 ---
-{% include run_page.md %}
+{% include run/run_page.md %}

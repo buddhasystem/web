@@ -5,4 +5,4 @@ run: run01
 period: 1999-2001
 coordinator: Achim Franz, BNL.
 ---
-{% include run_page.md %}
+{% include run/run_page.md %}

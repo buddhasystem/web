@@ -1,4 +1,4 @@
-{% include run_bar.md %}
+{% include run/run_bar.md %}
 <hr/>
 <center><h2>{{ page.title }}</h2></center>
 <hr/>
