@@ -17,7 +17,7 @@ weight: 20
 
 {% for run in site.runs %}
 
-{% include run_short.md run=run %}
+{% include run/run_short.md run=run %}
 
 {% endfor %}
 
