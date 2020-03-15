@@ -26,7 +26,7 @@
 </td>
 
 <td>
-{% include rhic_record.md run=page.run %}
+{% include rhic/rhic_record.md run=page.run %}
 </td>
 
 </tr>
