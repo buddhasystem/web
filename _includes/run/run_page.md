@@ -35,4 +35,4 @@
 
 {% endif %}
 
-{% include lumi_page.md %}
+{% include rhic/lumi_page.md %}
