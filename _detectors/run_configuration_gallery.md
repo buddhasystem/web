@@ -5,4 +5,4 @@ layout: default
 weight: 11
 level: 0
 ---
-{% include generic_gallery.md type="run_configuration" %}
+{% include images/generic_gallery.md type="run_configuration" %}
