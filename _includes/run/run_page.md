@@ -14,7 +14,9 @@
 
 <table width="100%">
 <tr><th>Configuration Diagram</th><th>RHIC run record</th></tr>
+
 <tr>
+
 <td>
 {% if image!='' %}
 {% include include_image.md image=image title='' width=width %}
@@ -22,10 +24,13 @@
 &nbsp;
 {% endif %}
 </td>
+
 <td>
 {% include rhic_record.md run=page.run %}
 </td>
+
 </tr>
+
 </table>
 
 {% endif %}
