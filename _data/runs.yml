@@ -67,27 +67,59 @@
 - run: run10
   period: 2009-2010
   coordinator: Stefan Bathe, RIKEN-BNL.
-- run: run11
+  rhic:
+    - {species: '<sup>197</sup>Au<sup>79+</sup>+<sup>197</sup>Au<sup>79+</sup>', energy: 100.0}
+    - {species: '<sup>197</sup>Au<sup>79+</sup>+<sup>197</sup>Au<sup>79+</sup>', energy: 31.2}
+    - {species: '<sup>197</sup>Au<sup>79+</sup>+<sup>197</sup>Au<sup>79+</sup>', energy: 19.5}
+    - {species: '<sup>197</sup>Au<sup>79+</sup>+<sup>197</sup>Au<sup>79+</sup>', energy: 3.85}
 
+- run: run11
   period: 2010-2011
   coordinator: Takao Sakaguchi, BNL.
+  rhic:
+    - {species: 'polarized p+p', energy: 249.9}
+    - {species: '<sup>197</sup>Au<sup>79+</sup>+<sup>197</sup>Au<sup>79+</sup>', energy: 9.8}
+    - {species: '<sup>197</sup>Au<sup>79+</sup>+<sup>197</sup>Au<sup>79+</sup>', energy: 100.0}
+    - {species: '<sup>197</sup>Au<sup>79+</sup>+<sup>197</sup>Au<sup>79+</sup>', energy: 13.5}
   
 - run: run12
   period: 2011-2012
   coordinator: Xiaochun He, GSU.
+  rhic:
+    - {species: 'polarized p+p', energy: 100.2}
+    - {species: 'polarized p+p', energy: 254.9}
+    - {species: '<sup>238</sup>U<sup>92+</sup>+<sup>238</sup>U<sup>92+</sup>', energy: 96.4}
+    - {species: '<sup>63</sup>Cu<sup>29+</sup>+<sup>197</sup>Au<sup>79+</sup>', energy: 99.9+100.0}
+    - {species: '<sup>197</sup>Au<sup>79+</sup>+<sup>197</sup>Au<sup>79+</sup>', energy: 13.5}
 
 - run: run13
   period: 2013
   coordinator: Hubert van Hecke, LANL.
+  rhic:
+    - {species: 'polarized p+p', energy: 254.9}
   
 - run: run14
   period: 2014
   coordinator: Klaus Dehmelt, SUNYSB.
+  rhic:
+    - {species: '<sup>197</sup>Au<sup>79+</sup>+<sup>197</sup>Au<sup>79+</sup>', energy: 7.3}
+    - {species: '<sup>197</sup>Au<sup>79+</sup>+<sup>197</sup>Au<sup>79+</sup>', energy: 100.0}
+    - {species: '<sup>3</sup>He<sup>2+</sup>+<sup>197</sup>Au<sup>79+</sup>', energy: 103.5+100.0}
   
 - run: run15
   period: 2015
   coordinator: Douglas Fields, UNM; Itaru Nakagawa, Riken/RBRC (spin).
+  rhic:
+    - {species: 'polarized p+p', energy: 100.2}
+    - {species: 'polarized p+<sup>197</sup>Au<sup>79+</sup>', energy: 103.9+98.6}
+    - {species: 'polarized p+<sup>27</sup>Au<sup>13+</sup>', energy: 103.9+98.7}
   
 - run: run16
   period: 2016
   coordinator: Denis Jouan, IPNO.
+  rhic:
+    - {species: '<sup>197</sup>Au<sup>79+</sup>+<sup>197</sup>Au<sup>79+</sup>', energy: 100.0}
+    - {species: 'd+<sup>197</sup>Au<sup>79+</sup>', energy: 100.7+100}
+    - {species: 'd+<sup>197</sup>Au<sup>79+</sup>', energy: 31.1+31.1}
+    - {species: 'd+<sup>197</sup>Au<sup>79+</sup>', energy: 9.9+9.8}
+    - {species: 'd+<sup>197</sup>Au<sup>79+</sup>', energy: 19.6+19.4}
