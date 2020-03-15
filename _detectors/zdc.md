@@ -16,4 +16,4 @@ category: event
 {% assign image = page.image %}
 {% assign image_title = page.image_title %}
 
-{% include include_image.md detector=detector image=image image_title=image_title %}
+{% include images/include_image.md detector=detector image=image image_title=image_title %}

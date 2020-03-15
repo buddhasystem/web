@@ -19,7 +19,7 @@
 
 <td>
 {% if image!='' %}
-{% include include_image.md image=image title='' width=width %}
+{% include images/include_image.md image=image title='' width=width %}
 {% else %}
 &nbsp;
 {% endif %}
