@@ -10,7 +10,7 @@
 {% for detector in items %}
 
 {% if detector.category == page.detector_category %}
-{% include detector_category.md content=detector %}
+{% include detectors/detector_category.md content=detector %}
 {% endif %}
 
 {% endfor %}

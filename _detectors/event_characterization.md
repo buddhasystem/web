@@ -7,4 +7,4 @@ level: 0
 detector_category: "event"
 ---
 
-{% include detector_category_selection.md %}
+{% include detectors/detector_category_selection.md %}

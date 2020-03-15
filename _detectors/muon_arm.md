@@ -6,4 +6,4 @@ weight: 30
 level: 0
 detector_category: "muon"
 ---
-{% include detector_category_selection.md %}
+{% include detectors/detector_category_selection.md %}

@@ -6,4 +6,4 @@ weight: 20
 level: 0
 detector_category: "central"
 ---
-{% include detector_category_selection.md %}
+{% include detectors/detector_category_selection.md %}
