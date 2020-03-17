@@ -12,12 +12,33 @@
 {% if run_list[0].rhic %}
 
 <table width="100%" border="1">
-<tr><td><hr/></td><td><hr/></td><td><hr/></td></tr>
+
 <tr>
+{% if include.run %}
+<td><hr/></td><td><hr/></td><td><hr/></td><td><hr/></td><td><hr/></td></tr>
+{% else %}
+<td><hr/></td><td><hr/></td><td><hr/></td><td><hr/></td><td><hr/></td><td><hr/></td></tr>
+{% endif %}
+
+<tr>
+{% if include.run %}
+{% else %}
 <th style="text-align:center">Run</th>
+{% endif %}
 <th style="text-align:center">Species</th>
-<th style="text-align:center">Energy (GeV/nucleon)</th>
+<th style="text-align:center">Energy<br/>(GeV/nucleon)</th>
+<th style="text-align:center">Integrated<br/>Luminosity</th>
+<th style="text-align:center">N<sub>events</sub></th>
+<th style="text-align:center">Polarization</th>
 </tr>
+
+<tr>
+{% if include.run %}
+<td><hr/></td><td><hr/></td><td><hr/></td><td><hr/></td><td><hr/></td></tr>
+{% else %}
+<td><hr/></td><td><hr/></td><td><hr/></td><td><hr/></td><td><hr/></td><td><hr/></td></tr>
+{% endif %}
+
 
 {% for run in run_list %}
 
@@ -26,13 +47,28 @@
 
 {% for period in run.rhic %}
 <tr>
+{% if include.run %}
+{% else %}
 <td style="text-align:center">{{ runno }}</td>
+{% endif %}
 <td style="text-align:center">{{ period['species'] }}</td>
 <td style="text-align:center">{{ period['energy'] }}</td>
+<td style="text-align:center">&nbsp;</td>
+<td style="text-align:center">&nbsp;</td>
+<td style="text-align:center">&nbsp;</td>
 </tr>
+
 {% assign runno=' ' %}
 {% endfor %}
-<tr><td><hr/></td><td><hr/></td><td><hr/></td></tr>
+
+<tr>
+{% if include.run %}
+<td><hr/></td><td><hr/></td><td><hr/></td><td><hr/></td><td><hr/></td></tr>
+{% else %}
+<td><hr/></td><td><hr/></td><td><hr/></td><td><hr/></td><td><hr/></td><td><hr/></td></tr>
+{% endif %}
+
+
 {% endif %}
 
 {% endfor %}

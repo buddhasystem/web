@@ -12,12 +12,15 @@
 {% assign width=images[0].width %}
 
 
-<table width="100%">
-<tr><th>Configuration Diagram</th><th>RHIC run record</th></tr>
+<table width="110%">
+<tr><th style="text-align:center">Configuration Diagram</th><th style="text-align:center">RHIC+PHENIX Run Records</th></tr>
+<tr>
+<td><hr/></td><td><hr/></td>
+</tr>
 
 <tr>
 
-<td>
+<td style="text-align:center">
 {% if image!='' %}
 {% include images/include_image.md image=image title='' width=width %}
 {% else %}

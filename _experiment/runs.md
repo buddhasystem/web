@@ -23,7 +23,7 @@ weight: 20
 
 </table>
 <hr/>
-{% include images/generic_gallery.md type="run_info" gallery="aux" title="PHENIX run summary tables (click for a larger image)" %}
+{% include images/generic_gallery.md type="run_info" gallery="aux" title="Archived PHENIX run summary tables (click for a larger image)" %}
 <hr/>
 
-{% include rhic/rhic_record.md title="RHIC run records for PHENIX" %}
+{% include rhic/rhic_record.md title="RHIC records + PHENIX run summary information" %}
