@@ -53,39 +53,98 @@
   period: 2003-2004
   coordinator: Terry C. Awes, ORNL.
   rhic:
-    - {species: '<sup>197</sup>Au<sup>79+</sup>+<sup>197</sup>Au<sup>79+</sup>', energy: 100.0}
-    - {species: '<sup>197</sup>Au<sup>79+</sup>+<sup>197</sup>Au<sup>79+</sup>', energy: 31.2}
+    - {
+       species: '<sup>197</sup>Au<sup>79+</sup>+<sup>197</sup>Au<sup>79+</sup>',
+       energy: 100.0,
+       lumi: '241<i>&mu;b</i><sup>-1</sup>',
+       Nevents: 1.5B
+      }
+    - {
+       species: '<sup>197</sup>Au<sup>79+</sup>+<sup>197</sup>Au<sup>79+</sup>',
+       energy: 31.2,
+       lumi: '9<i>&mu;b</i><sup>-1</sup>',
+       Nevents: 58M
+      }
   
 - run: run05
   period: 2004-2005
   coordinator: John Lajoie, ISU.
   rhic:
-    - {species: '<sup>63</sup>Cu<sup>29+</sup>+<sup>63</sup>Cu<sup>29+</sup>', energy: 100.0}
-    - {species: '<sup>63</sup>Cu<sup>29+</sup>+<sup>63</sup>Cu<sup>29+</sup>', energy: 31.2}
-    - {species: '<sup>63</sup>Cu<sup>29+</sup>+<sup>63</sup>Cu<sup>29+</sup>', energy: 11.2}
-    - {species: 'polarized p+p', energy: 100.2}
+    - {
+       species: '<sup>63</sup>Cu<sup>29+</sup>+<sup>63</sup>Cu<sup>29+</sup>',
+       energy: 100.0,
+       lumi: '3<i>nb</i><sup>-1</sup>',
+       Nevents: 8.6B
+      }
+    - {
+       species: '<sup>63</sup>Cu<sup>29+</sup>+<sup>63</sup>Cu<sup>29+</sup>',
+       energy: 31.2,
+       lumi: '0.19<i>nb</i><sup>-1</sup>',
+       Nevents: 0.5B
+      }
+    - {
+       species: '<sup>63</sup>Cu<sup>29+</sup>+<sup>63</sup>Cu<sup>29+</sup>',
+       energy: 11.2,
+       lumi: '2.7<i>nb</i><sup>-1</sup>',
+       Nevents: 3.7B
+      }
+    - {
+       species: 'polarized p+p',
+       energy: 100.2,
+       lumi: '3.4/0.2 <i>pb</i><sup>-1</sup>',
+       Nevents: 85B
+      }
 
 - run: run06
   period: 2005-2006
   coordinator: Abhay Deshpande, SUNYSB and RBRC.
   rhic:
-    - {species: 'polarized p+p', energy: 100.2}
-    - {species: 'polarized p+p', energy: 31.2}
-
+    - {
+       species: 'polarized p+p',
+       energy: 100.2,
+       lumi: '7.5/2.7 <i>pb</i><sup>-1</sup>',
+       Nevents: 233B
+      }
+    - {
+       species: 'polarized p+p',
+       energy: 31.2,
+       lumi: '0.08/0.02 <i>pb</i><sup>-1</sup>',
+       Nevents: 28B
+      }
   
 - run: run07
   period: 2006-2007
   coordinator: Michael J. Leitch, LANL.
   rhic:
-    - {species: '<sup>197</sup>Au<sup>79+</sup>+<sup>197</sup>Au<sup>79+</sup>', energy: 100.0}
+    - {
+       species: '<sup>197</sup>Au<sup>79+</sup>+<sup>197</sup>Au<sup>79+</sup>',
+       energy: 100.0,
+       lumi: '813<i>&mu;b</i><sup>-1</sup>',
+       Nevents: 5.1B
+       }
   
 - run: run08
   period: 2007-2008
   coordinator: Michael J. Leitch, LANL.
   rhic:
-    - {species: 'd+<sup>197</sup>Au<sup>79+</sup>', energy: 100.7+100}
-    - {species: 'polarized p+p', energy: 100.2}
-    - {species: '<sup>197</sup>Au<sup>79+</sup>+<sup>197</sup>Au<sup>79+</sup>', energy: 4.6}
+    - {
+       species: 'd+<sup>197</sup>Au<sup>79+</sup>',
+       energy: 100.7+100,
+       lumi: '80<i>nb</i><sup>-1</sup>',
+       Nevents: 160B
+      }
+    - {
+       species: 'polarized p+p',
+       energy: 100.2,
+       lumi: '− /5.2 <i>pb</i><sup>-1</sup>',
+       Nevents: 115B
+      }
+    - {
+       species: '<sup>197</sup>Au<sup>79+</sup>+<sup>197</sup>Au<sup>79+</sup>',
+       energy: 4.6,
+       lumi: '-',
+       Nevents: '<5k'
+      }
   
 - run: run09
   period: 2008-2009
@@ -98,7 +157,12 @@
   period: 2009-2010
   coordinator: Stefan Bathe, RIKEN-BNL.
   rhic:
-    - {species: '<sup>197</sup>Au<sup>79+</sup>+<sup>197</sup>Au<sup>79+</sup>', energy: 100.0}
+    - {
+       species: '<sup>197</sup>Au<sup>79+</sup>+<sup>197</sup>Au<sup>79+</sup>',
+       energy: 100.0,
+       lumi: '2.7<i>nb</i><sup>-1</sup>',
+       Nevents: 3.7B
+      }
     - {species: '<sup>197</sup>Au<sup>79+</sup>+<sup>197</sup>Au<sup>79+</sup>', energy: 31.2}
     - {species: '<sup>197</sup>Au<sup>79+</sup>+<sup>197</sup>Au<sup>79+</sup>', energy: 19.5}
     - {species: '<sup>197</sup>Au<sup>79+</sup>+<sup>197</sup>Au<sup>79+</sup>', energy: 3.85}
