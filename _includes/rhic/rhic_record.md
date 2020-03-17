@@ -28,7 +28,7 @@
 <th style="text-align:center">Species</th>
 <th style="text-align:center">Energy<br/>(GeV/nucleon)</th>
 <th style="text-align:center">Integrated<br/>Luminosity<br/>[Polarization L/T]</th>
-<th style="text-align:center">N<sub>events</sub></th>
+<th style="text-align:center">N<sub>events</sub><br/>[BBC<sub>30cm</sub>/BBC<sub>narrow</sub>]</th>
 </tr>
 
 <tr>
