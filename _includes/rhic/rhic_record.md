@@ -54,8 +54,8 @@
 {% endif %}
 <td style="text-align:center">{{ period['species'] }}</td>
 <td style="text-align:center">{{ period['energy'] }}</td>
-<td style="text-align:center">&nbsp;</td>
-<td style="text-align:center">&nbsp;</td>
+<td style="text-align:center">{{ period['lumi'] }}</td>
+<td style="text-align:center">{{ period['Nevents'] }}</td>
 <td style="text-align:center">&nbsp;</td>
 </tr>
 
