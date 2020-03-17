@@ -15,9 +15,9 @@
 
 <tr>
 {% if include.run %}
-<td><hr/></td><td><hr/></td><td><hr/></td><td><hr/></td><td><hr/></td></tr>
+<td><hr/></td><td><hr/></td><td><hr/></td><td><hr/></td></tr>
 {% else %}
-<td><hr/></td><td><hr/></td><td><hr/></td><td><hr/></td><td><hr/></td><td><hr/></td></tr>
+<td><hr/></td><td><hr/></td><td><hr/></td><td><hr/></td><td><hr/></td></tr>
 {% endif %}
 
 <tr>
@@ -27,16 +27,15 @@
 {% endif %}
 <th style="text-align:center">Species</th>
 <th style="text-align:center">Energy<br/>(GeV/nucleon)</th>
-<th style="text-align:center">Integrated<br/>Luminosity</th>
+<th style="text-align:center">Integrated<br/>Luminosity<br/>[Polarization L/T]</th>
 <th style="text-align:center">N<sub>events</sub></th>
-<th style="text-align:center">Polarization</th>
 </tr>
 
 <tr>
 {% if include.run %}
-<td><hr/></td><td><hr/></td><td><hr/></td><td><hr/></td><td><hr/></td></tr>
+<td><hr/></td><td><hr/></td><td><hr/></td><td><hr/></td></tr>
 {% else %}
-<td><hr/></td><td><hr/></td><td><hr/></td><td><hr/></td><td><hr/></td><td><hr/></td></tr>
+<td><hr/></td><td><hr/></td><td><hr/></td><td><hr/></td><td><hr/></td></tr>
 {% endif %}
 
 
@@ -56,7 +55,6 @@
 <td style="text-align:center">{{ period['energy'] }}</td>
 <td style="text-align:center">{{ period['lumi'] }}</td>
 <td style="text-align:center">{{ period['Nevents'] }}</td>
-<td style="text-align:center">&nbsp;</td>
 </tr>
 
 {% assign runno=' ' %}
@@ -64,9 +62,9 @@
 
 <tr>
 {% if include.run %}
-<td><hr/></td><td><hr/></td><td><hr/></td><td><hr/></td><td><hr/></td></tr>
+<td><hr/></td><td><hr/></td><td><hr/></td><td><hr/></td></tr>
 {% else %}
-<td><hr/></td><td><hr/></td><td><hr/></td><td><hr/></td><td><hr/></td><td><hr/></td></tr>
+<td><hr/></td><td><hr/></td><td><hr/></td><td><hr/></td><td><hr/></td></tr>
 {% endif %}
 
 

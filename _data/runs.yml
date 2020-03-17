@@ -25,14 +25,29 @@
        lumi: '-',
        Nevents: <1M
       }
-    - {species: 'polarized p+p', energy: 100.2}
+    - {
+       species: 'polarized p+p',
+       energy: 100.2,
+       lumi: '− / 0.15 <i>pb</i><sup>-1</sup>',
+       Nevents: 3.7B
+      }
 
 - run: run03
   period: 2002-2003
   coordinator: Matthias Grosse Perdekamp, UIUC and RBRC.
   rhic:
-    - {species: 'd+<sup>197</sup>Au<sup>79+</sup>', energy: 100.7+100}
-    - {species: 'polarized p+p', energy: 100.2}
+    - {
+       species: 'd+<sup>197</sup>Au<sup>79+</sup>',
+       energy: 100.7+100,
+       lumi: '2.74<i>nb</i><sup>-1</sup>',
+       Nevents: 5.5B
+      }
+    - {
+       species: 'polarized p+p',
+       energy: 100.2,
+       lumi: '0.35/− <i>pb</i><sup>-1</sup>',
+       Nevents: 6.6B
+      }
 
 - run: run04
   period: 2003-2004
