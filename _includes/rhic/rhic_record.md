@@ -49,7 +49,8 @@
 <tr>
 {% if include.run %}
 {% else %}
-<td style="text-align:center">{{ runno }}</td>
+{% assign run_link = '/runs/' | append: run.run | append: '.html' | relative_url %}
+<td style="text-align:center"><a href="{{ run_link }}"> {{ runno }}</a></td>
 {% endif %}
 <td style="text-align:center">{{ period['species'] }}</td>
 <td style="text-align:center">{{ period['energy'] }}</td>
