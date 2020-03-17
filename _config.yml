@@ -42,6 +42,9 @@ collections:
   analysis:
     output: true
     permalink: /about/:title.html
+  resources:
+    output: true
+    permalink: /resources/:title.html
   people:
     output: true
     permalink: /people/:title.html

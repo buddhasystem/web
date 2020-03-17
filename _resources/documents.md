@@ -1,10 +1,10 @@
 ---
-title: Publications
-abbrev: publications
+title: Documents
+abbrev: documents
 layout: default
 level: 0
-weight: 0
+weight: 10
 ---
-# Publications
+# Dcouments
 
 {% include workinprogress.md %}
