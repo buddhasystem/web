@@ -93,6 +93,24 @@
   format: pdf
   date: 
 
+- name: NIM_RXNP.pdf
+  title: A reaction plane detector for PHENIX at RHIC (NIM A 636, 2011)
+  author: 
+  venue: 
+  type: document
+  category: detector
+  format: pdf
+  date: 
+
+- name: HBD_NIM.pdf
+  title: Design, construction, operation and performance of a Hadron Blind Detector for the PHENIX experiment (NIM A 646, 2011)
+  author: 
+  venue: 
+  type: document
+  category: detector
+  format: pdf
+  date: 
+
 ### Data Reconstruction and Analysis
 - name: central_reco_NIMA482.pdf
   title: Event Reconstruction in the PHENIX Central Arm Spectrometers (NIM A 482, 2002)
