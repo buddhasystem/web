@@ -9,11 +9,20 @@ document_folder: '/assets/documents/'
 
 {% assign overviews = site.data.documents | where: "category", "overview" %}
 {% assign summaries = site.data.documents | where: "category", "summary" %}
+{% assign detectors = site.data.documents | where: "category", "detector" %}
+
 # Documents
 
-## Overviews
+## General Overviews
 <ul>
 {% for item in overviews %}
+<li><a href="{{ page.document_folder | append: item.name | relative_url }}" target="_blank">{{ item.title }}</a></li>
+{% endfor %}
+</ul>
+
+## Detector Subsystems
+<ul>
+{% for item in detectors %}
 <li><a href="{{ page.document_folder | append: item.name | relative_url }}" target="_blank">{{ item.title }}</a></li>
 {% endfor %}
 </ul>

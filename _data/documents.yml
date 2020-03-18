@@ -1,4 +1,6 @@
 # This data files contains metadata used to populate the "documents" section on the PHENIX DAP website
+
+### General Overviews:
 - name: phenix_decadal10_full_refs.pdf
   title: The PHENIX Experiment at RHIC - Decadal Plan 2011–2020
   author: 
@@ -8,6 +10,16 @@
   format: pdf
   date: 
 
+- name: PHENIX_Overview_NIM499.pdf
+  title: PHENIX Overview (NIM, 2003)
+  author: 
+  venue: 
+  type: document
+  category: overview
+  format: pdf
+  date: 
+
+### Summaries:
 - name: PHENIXSpin.pdf
   title: Spin Program Summary Table
   author: A. Bazilevsky
@@ -26,12 +38,40 @@
   format: pdf
   date: 
 
-- name: PHENIX_Overview_NIM499.pdf
-  title: PHENIX Overview (NIM, 2003)
+### Detector subsystems:
+- name: PHENIX_EMCAL_NIM499.pdf
+  title: PHENIX calorimeter (NIM A 499, 2003)
   author: 
   venue: 
   type: document
-  category: overview
+  category: detector
+  format: pdf
+  date: 
+
+- name: PHENIX_Inner_NIM499.pdf
+  title: PHENIX inner detectors (NIM A 499, 2003)
+  author: 
+  venue: 
+  type: document
+  category: detector
+  format: pdf
+  date: 
+
+- name: PHENIX_Magnet_NIM499.pdf
+  title: PHENIX magnet system (NIM A 499, 2003)
+  author: 
+  venue: 
+  type: document
+  category: detector
+  format: pdf
+  date: 
+
+- name: PHENIX_Muon_NIM499.pdf
+  title: PHENIX Muon Arms (NIM A 499, 2003)
+  author: 
+  venue: 
+  type: document
+  category: detector
   format: pdf
   date: 
 
