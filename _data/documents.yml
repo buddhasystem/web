@@ -11,7 +11,7 @@
   date: 
 
 - name: PHENIX_Overview_NIM499.pdf
-  title: PHENIX Overview (NIM, 2003)
+  title: PHENIX Overview (NIM A 499, 2003)
   author: 
   venue: 
   type: document
@@ -30,7 +30,7 @@
   date: 
 
 - name: PHENIX_Data_Sets_v1.pdf
-  title: Dataset summary for runs 9-16
+  title: Dataset Summary for Runs 9-16
   author: 
   venue: 
   type: document
@@ -38,9 +38,9 @@
   format: pdf
   date: 
 
-### Detector subsystems:
+### PHENIX Detector Subsystems:
 - name: PHENIX_EMCAL_NIM499.pdf
-  title: PHENIX calorimeter (NIM A 499, 2003)
+  title: Calorimeter (NIM A 499, 2003)
   author: 
   venue: 
   type: document
@@ -49,7 +49,7 @@
   date: 
 
 - name: PHENIX_Inner_NIM499.pdf
-  title: PHENIX inner detectors (NIM A 499, 2003)
+  title: Inner Detectors (NIM A 499, 2003)
   author: 
   venue: 
   type: document
@@ -58,7 +58,7 @@
   date: 
 
 - name: PHENIX_Magnet_NIM499.pdf
-  title: PHENIX magnet system (NIM A 499, 2003)
+  title: Magnet System (NIM A 499, 2003)
   author: 
   venue: 
   type: document
@@ -67,11 +67,49 @@
   date: 
 
 - name: PHENIX_Muon_NIM499.pdf
-  title: PHENIX Muon Arms (NIM A 499, 2003)
+  title: Muon Arms (NIM A 499, 2003)
   author: 
   venue: 
   type: document
   category: detector
+  format: pdf
+  date: 
+
+- name: PHENIX_CentralTracker_NIM499.pdf
+  title: Central Arm Tracking Detectors (NIM A 499, 2003)
+  author: 
+  venue: 
+  type: document
+  category: detector
+  format: pdf
+  date: 
+
+- name: PHENIX_PID_NIM499.pdf
+  title: Central Arm Particle ID Detectors (NIM A 499, 2003)
+  author: 
+  venue: 
+  type: document
+  category: detector
+  format: pdf
+  date: 
+
+### Data Reconstruction and Analysis
+- name: central_reco_NIMA482.pdf
+  title: Central Arm reco (NIM A 482, 2002)
+  author: 
+  venue: 
+  type: document
+  category: dra
+  format: pdf
+  date: 
+
+### Systems:
+- name: PHENIX_Online_NIM499.pdf
+  title: Online Systems (NIM A 499, 2003)
+  author: 
+  venue: 
+  type: document
+  category: systems
   format: pdf
   date: 
 
