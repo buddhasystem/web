@@ -1,0 +1,18 @@
+# This data files contains metadata used to populate the "documents" section on the PHENIX DAP website
+- name: phenix_decadal10_full_refs.pdf
+  title: The PHENIX Experiment at RHIC - Decadal Plan 2011–2020
+  author: 
+  venue: 
+  type: document
+  category: overview
+  format: pdf
+  date: 
+
+- name: PHENIXSpin.pdf
+  title: PHENIX Spin Program Summary Table
+  author: A. Bazilevsky
+  venue: 
+  type: document
+  category: spin
+  format: pdf
+  date: 
