@@ -111,6 +111,15 @@
   format: pdf
   date: 
 
+- name: FVTX_NIM.pdf
+  title: The PHENIX Forward Silicon Vertex Detector (NIM A 755, 2014)
+  author: 
+  venue: 
+  type: document
+  category: detector
+  format: pdf
+  date: 
+
 ### Data Reconstruction and Analysis
 - name: central_reco_NIMA482.pdf
   title: Event Reconstruction in the PHENIX Central Arm Spectrometers (NIM A 482, 2002)
