@@ -9,10 +9,29 @@
   date: 
 
 - name: PHENIXSpin.pdf
-  title: PHENIX Spin Program Summary Table
+  title: Spin Program Summary Table
   author: A. Bazilevsky
   venue: 
   type: document
-  category: spin
+  category: summary
   format: pdf
   date: 
+
+- name: PHENIX_Data_Sets_v1.pdf
+  title: Dataset summary for runs 9-16
+  author: 
+  venue: 
+  type: document
+  category: summary
+  format: pdf
+  date: 
+
+- name: PHENIX_Overview_NIM499.pdf
+  title: PHENIX Overview (NIM, 2003)
+  author: 
+  venue: 
+  type: document
+  category: overview
+  format: pdf
+  date: 
+
