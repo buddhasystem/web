@@ -1,7 +1,7 @@
 ---
 title: Documents
 abbrev: documents
-layout: default
+layout: newbase
 level: 0
 weight: 10
 document_folder: '/assets/documents/'

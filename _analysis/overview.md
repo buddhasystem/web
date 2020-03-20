@@ -1,7 +1,7 @@
 ---
 title: Analysis Overview
 abbrev: analysisoverview
-layout: default
+layout: newbase
 weight: 1
 ---
 # Analysis Overview

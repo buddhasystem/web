@@ -1,6 +1,6 @@
 ---
 title: Data and Analysis Preservation
-layout: default
+layout: newbase
 abbrev: dap
 weight: 0
 ---

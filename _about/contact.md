@@ -1,6 +1,6 @@
 ---
 title: Contact us
-layout: default
+layout: newbase
 abbrev: contact
 weight: 1
 ---

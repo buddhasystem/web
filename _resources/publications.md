@@ -1,7 +1,7 @@
 ---
 title: Publications
 abbrev: publications
-layout: default
+layout: newbase
 level: 0
 weight: 0
 ---

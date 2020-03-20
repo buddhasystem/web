@@ -1,6 +1,6 @@
 ---
 title: Credits
-layout: default
+layout: newbase
 abbrev: credits
 weight: 2
 ---
