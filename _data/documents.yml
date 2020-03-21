@@ -10,6 +10,15 @@
   format: pdf
   date: 
 
+- name: PHENIXDecadalPlan.pdf
+  title: The PHENIX Experiment at RHIC - Decadal Plan 2004–2013
+  author: 
+  venue: 
+  type: document
+  category: overview
+  format: pdf
+  date: 
+
 - name: PHENIX_Overview_NIM499.pdf
   title: PHENIX Overview (NIM A 499, 2003)
   author: 
