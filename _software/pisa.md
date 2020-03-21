@@ -1,7 +1,7 @@
 ---
 title: PISA
 abbrev: pisa
-layout: default
+layout: newbase
 weight: 3
 ---
 # PISA

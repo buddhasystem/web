@@ -1,6 +1,6 @@
 ---
 title: Run Summary Table
-layout: default
+layout: newbase
 abbrev: runs
 level: 0
 weight: 20

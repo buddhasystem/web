@@ -1,6 +1,7 @@
 ---
 title: image
 abbrev: image
-layout: default
+layout: newbase
 ---
-# Image
+# Work in progress
+

@@ -1,7 +1,7 @@
 ---
 title: Fun4All
 abbrev: fun4all
-layout: default
+layout: newbase
 weight: 2
 ---
 # Fun4all

@@ -1,7 +1,7 @@
 ---
 title: History
 abbrev: history
-layout: default
+layout: newbase
 level: 0
 weight: 10
 ---

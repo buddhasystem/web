@@ -1,6 +1,6 @@
 ---
 title: Auxiliary Run Info
-layout: default
+layout: newbase
 abbrev: aux
 level: 0
 weight: 30
@@ -28,5 +28,5 @@ weight: 30
 </ul>
 
 <hr/>
-{% include images/generic_gallery.md type="run_info" gallery="aux" title="Archived PHENIX run summary tables (click for a larger image)" %}
+{% include images/generic_gallery.md type="run_info" gallery="aux" title="Archived images of run summary tables (click for a larger image)" %}
 <hr/>

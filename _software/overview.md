@@ -1,7 +1,7 @@
 ---
 title: Software Overview
 abbrev: softwareoverview
-layout: default
+layout: newbase
 weight: 1
 ---
 # Software Overview
