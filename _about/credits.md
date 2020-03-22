@@ -2,7 +2,7 @@
 title: Credits
 layout: newbase
 abbrev: credits
-weight: 2
+weight: 20
 ---
 
 # Credits
