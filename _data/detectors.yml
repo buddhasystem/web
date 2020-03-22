@@ -72,3 +72,29 @@
   abbrev: vtx
   category: central
 
+### Event Characterization:
+- title: Beam-Beam Counters
+  role: Measures collision location and centrality. Starts the stopwatch for an event.
+  abbrev: bbc
+  category: event
+
+- title: Zero Degree Calorimeters and Shower Max Detectors
+  role: Measures collision location and centrality.
+  abbrev: zdc
+  category: event
+
+- title: Forward Calorimeters
+  role: For d+Au collisions, it measures surviving neutrons and protons from the original deuteron.
+  abbrev: fc
+  category: event
+
+- title: Multiplicity Vertex Detector
+  role: Measures collision location and charged particle distributions.
+  abbrev: mvtx
+  category: event
+
+- title: Reaction Plane Detector
+  role: Accurately measures the reaction plane of each collision.
+  abbrev: rpd
+  category: event
+

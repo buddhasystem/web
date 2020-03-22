@@ -6,5 +6,6 @@ weight: 40
 level: 0
 detector_category: "event"
 ---
+# {{ page.title }}
 
-{% include detectors/detector_category_selection.md %}
+{% include detectors/detector_selection.md category=page.detector_category %}
