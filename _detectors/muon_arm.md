@@ -7,3 +7,5 @@ level: 0
 detector_category: "muon"
 ---
 {% include detectors/detector_category_selection.md %}
+
+# Development area
