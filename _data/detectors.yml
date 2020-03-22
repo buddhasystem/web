@@ -1,0 +1,7 @@
+# Metadata used to populate the "detectors" section on the PHENIX DAP website
+
+### Muon Arm:
+- title: Muon Tracker
+  role: Measures the position and momentum of muon particles.
+  abbrev: muon_tracker
+  category: muon

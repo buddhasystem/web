@@ -1,4 +1,5 @@
-# This data files contains metadata used to populate the "documents" section on the PHENIX DAP website
+# Metadata used to populate the "documents" section on the PHENIX DAP website.
+# Items are grouped by categories for ease of navigation within the file.
 
 ### General Overviews:
 - name: phenix_decadal10_full_refs.pdf
