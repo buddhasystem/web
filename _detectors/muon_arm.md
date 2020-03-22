@@ -4,7 +4,7 @@ abbrev: muon_arm
 layout: default
 weight: 30
 level: 0
-detector_category: "muon"
+detector_category: muon
 ---
 # {{ page.title }}
 

@@ -16,3 +16,59 @@
   abbrev: muon_piston
   category: muon
 
+### Central Arm:
+- title: Drift Chamber
+  role: Measures the position and momentum of charged particles.
+  abbrev: drift_chamber
+  category: central
+
+- title: Pad Chambers
+  role: Measures the position of charged particles with precision.
+  abbrev: pad_chambers
+  category: central
+
+- title: Ring Imaging Cherenkov
+  role: Identifies Electrons.
+  abbrev: rich
+  category: central
+
+- title: Ring Imaging Cherenkov
+  role: Identifies Electrons.
+  abbrev: rich
+  category: central
+
+- title: Hadron Blind Detector
+  role: Identifies electrons without detecting hadrons.
+  abbrev: hbd
+  category: central
+
+- title: Time Expansion Chamber
+  role: Measures the position and momentum of charged particles. Identifies particles.
+  abbrev: tec
+  category: central
+
+- title: Time-of-Flight
+  role: Measures the position of charged particles. Identifies particles.
+  abbrev: tof
+  category: central
+
+- title: Aerogel Cerenkov Counter
+  role: Identifies particles at high transverse momentum.
+  abbrev: acc
+  category: central
+
+- title: Time-of-Flight West
+  role: High resolution particle identification.
+  abbrev: tofw
+  category: central
+
+- title: Electromagnetic Calorimeter
+  role: Measures the position and energy of charged and neutral particles. Identifies photons and charged particles.
+  abbrev: emcal
+  category: central
+
+- title: Silicon Vertex Tracker
+  role: Charged particle tracking near the collision vertex.
+  abbrev: vtx
+  category: central
+
