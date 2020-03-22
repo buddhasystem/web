@@ -5,3 +5,14 @@
   role: Measures the position and momentum of muon particles.
   abbrev: muon_tracker
   category: muon
+
+- title: Muon Identifier
+  role: Identifies muon particles.
+  abbrev: muon_identifier
+  category: muon
+
+- title: Muon Piston Calorimeter
+  role: Identifies energy deposited in the forward direction.
+  abbrev: muon_piston
+  category: muon
+
