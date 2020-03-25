@@ -3,6 +3,7 @@ title: Credits
 layout: newbase
 abbrev: credits
 weight: 20
+level: 0
 ---
 
 # Credits

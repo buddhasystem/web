@@ -3,6 +3,7 @@ title: Contact us
 layout: newbase
 abbrev: contact
 weight: 10
+level: 0
 ---
 
 # Contact us

@@ -8,10 +8,12 @@
 
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
-      {% include layouts/autodrop.md title='Experiment' what=site.experiment %}
-      {% include layouts/autodrop.md title='Detectors' what=site.detectors %}
-      {% include layouts/autodrop.md title='Software' what=site.software all=yes %}
-      {% include layouts/autodrop.md title='Analysis' what=site.analysis %}
+      {% include layouts/autodrop.md title='Experiment'	what=site.experiment %}
+      {% include layouts/autodrop.md title='Detectors'	what=site.detectors %}
+      {% include layouts/autodrop.md title='Software'	what=site.software all=yes %}
+      {% include layouts/autodrop.md title='Analysis'	what=site.analysis %}
+      {% include layouts/autodrop.md title='Resources'	what=site.resources %}
+      {% include layouts/autodrop.md title='About'	what=site.about %}
     </ul>
   </div>
 </nav>

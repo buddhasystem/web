@@ -3,6 +3,7 @@ title: Data and Analysis Preservation
 layout: newbase
 abbrev: dap
 weight: 0
+level: 0
 ---
 # {{ page.title }}
 
