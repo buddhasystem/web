@@ -2,7 +2,8 @@
 title: Fun4All
 abbrev: fun4all
 layout: newbase
-weight: 2
+weight: 10
+level: 0
 ---
 # Fun4all
 [Fun4all diagram]({{ '/assets/fun4all/fun4all_diagram.html' | relative_url }})
