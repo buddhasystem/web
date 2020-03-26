@@ -2,7 +2,7 @@
 title: Ring Imaging Cherenkov
 role: Identifies Electrons
 abbrev: rich
-layout: default
+layout: newbase
 weight: 2
 level: 1
 category: central

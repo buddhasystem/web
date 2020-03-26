@@ -1,7 +1,7 @@
 ---
 title: Detectors Overview
 abbrev: detectors_overview
-layout: default
+layout: newbase
 weight: 1
 level: 0
 ---

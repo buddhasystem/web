@@ -1,7 +1,7 @@
 ---
 title: Magnet
 abbrev: magnet
-layout: default
+layout: newbase
 weight: 50
 level: 0
 ---

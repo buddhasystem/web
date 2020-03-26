@@ -2,7 +2,7 @@
 title: Aerogel Cerenkov Counter
 role: Identifies particles at high transverse momentum.
 abbrev: acc
-layout: default
+layout: newbase
 weight: 6
 level: 1
 category: central
