@@ -15,13 +15,6 @@
 
 <tr>
 {% if include.run %}
-<td><hr/></td><td><hr/></td><td><hr/></td><td><hr/></td></tr>
-{% else %}
-<td><hr/></td><td><hr/></td><td><hr/></td><td><hr/></td><td><hr/></td></tr>
-{% endif %}
-
-<tr>
-{% if include.run %}
 {% else %}
 <th style="text-align:center">Run</th>
 {% endif %}
@@ -30,13 +23,6 @@
 <th style="text-align:center">Integrated<br/>Luminosity<br/>[Polarization L/T]</th>
 <th style="text-align:center">N<sub>events</sub><br/>[BBC<sub>30cm</sub>/BBC<sub>narrow</sub>]</th>
 </tr>
-
-<tr>
-{% if include.run %}
-<td><hr/></td><td><hr/></td><td><hr/></td><td><hr/></td></tr>
-{% else %}
-<td><hr/></td><td><hr/></td><td><hr/></td><td><hr/></td><td><hr/></td></tr>
-{% endif %}
 
 
 {% for run in run_list %}
@@ -59,13 +45,6 @@
 
 {% assign runno=' ' %}
 {% endfor %}
-
-<tr>
-{% if include.run %}
-<td><hr/></td><td><hr/></td><td><hr/></td><td><hr/></td></tr>
-{% else %}
-<td><hr/></td><td><hr/></td><td><hr/></td><td><hr/></td><td><hr/></td></tr>
-{% endif %}
 
 
 {% endif %}
