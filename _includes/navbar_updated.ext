@@ -1,7 +1,5 @@
-<center>
-<div class="navbar navbar-default">
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" href="#">Home</a>
+<nav class="navbar navbar-expand-sm navbar-light mx-auto justify-content-center" style="width: 1600px;"><!-- style="width: 1200px;" -->
+  <a class="navbar-brand" href="#" style="color: #fff;font-size: 20px;">Home</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -13,9 +11,11 @@
       {% include layouts/autodrop.md title='Software'	what=site.software all=yes %}
       {% include layouts/autodrop.md title='Analysis'	what=site.analysis %}
       {% include layouts/autodrop.md title='Resources'	what=site.resources %}
+    </ul>
+    <ul class="navbar-nav mr-auto text-right">
       {% include layouts/autodrop.md title='About'	what=site.about %}
+
     </ul>
   </div>
 </nav>
-</div>
-</center>
+
