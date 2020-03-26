@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-sm navbar-light mx-auto justify-content-center" style="width: 1600px;"><!-- style="width: 1200px;" -->
+<nav class="navbar sticky-top navbar-expand-sm navbar-light mx-auto justify-content-center" style="width: 1600px;"><!-- style="width: 1200px;" -->
   <a class="navbar-brand" href="{{ '/' | relative_url }}" style="color: #fff;font-size: 20px;">Home</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>

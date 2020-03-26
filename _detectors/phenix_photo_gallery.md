@@ -1,7 +1,7 @@
 ---
 title: PHENIX Photo Gallery
 abbrev: phenix_photo_gallery
-layout: default
+layout: newbase
 weight: 10
 level: 0
 ---

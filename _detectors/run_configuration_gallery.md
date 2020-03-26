@@ -1,7 +1,7 @@
 ---
 title: Run Configuration Gallery
 abbrev: run_configuration_gallery
-layout: default
+layout: newbase
 weight: 11
 level: 0
 ---
