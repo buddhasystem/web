@@ -6,27 +6,19 @@ level: 0
 weight: 30
 ---
 
-## Run Chronology and Coordination
+{% include title.md %}
 
-<table width="100%">
-<tr><th>Run</th><th>Period</th><th>Coordinator(s)</th></tr>
 
-{% for run in site.runs %}
-{% include run/run_short.md run=run %}
-{% endfor %}
+### EMCal/RICH trigger (ERT)
+The EMCal/RICH trigger (ERT) selects events with high-p<sub>T</sub> electromagnetic probes or
+the presence of heavy flavor decays.
 
-</table>
-
-## Misc Info
-
-{% assign items = site.detectors | where: "abbrev", "run_configuration_gallery" %}
-{% assign item=items[0] %}
-
+<b>References</b>
+{% assign items = site.data.documents %}
 <ul>
-<li><a href="{{ item.url | relative_url }}">{{ item.title }} (graphics)</a></li>
-<li><a href="{{ '/assets/documents/PHENIXSpin.pdf'| relative_url }}">Summary of the PHENIX Spin program (PDF)</a></li>
+{% for item in items %}
+{% if item.tags contains 'ert' %}
+<li><a href="{{ page.document_folder | append: item.name | relative_url }}" target="_blank">{{ item.title }}</a></li>
+{% endif %}
+{% endfor %}
 </ul>
-
-<hr/>
-{% include images/generic_gallery.md type="run_info" gallery="aux" title="Archived images of run summary tables (click for a larger image)" %}
-<hr/>
