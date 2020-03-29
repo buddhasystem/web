@@ -1,10 +1,9 @@
 ---
-title: Auxiliary Run Info
+title: Trigger Information
 layout: newbase
-abbrev: aux
+abbrev: trigger
 level: 0
-weight: 1000
-div: yes
+weight: 30
 ---
 
 ## Run Chronology and Coordination

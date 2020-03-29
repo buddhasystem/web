@@ -16,10 +16,6 @@ The PHENIX Collaboration conducts research with high energy collisions of heavy 
 
 PHENIX finished taking data in 2016 however a number of analyses are continuing, including those with a physic reach unique to PHENIX.
 
-### References
-
-- [PHENIX website](https://www.phenix.bnl.gov/)
-
 # History
 
 ## 1991-2000
