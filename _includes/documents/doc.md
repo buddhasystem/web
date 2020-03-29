@@ -1,4 +1,6 @@
+{% if include.title %}
 ## {{ include.title }}
+{% endif %}
 
 {% assign items = site.data.documents | where: "category", include.category %}
 
