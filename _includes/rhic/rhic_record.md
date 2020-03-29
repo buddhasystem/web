@@ -1,5 +1,6 @@
 {% if include.title %}
 ## {{ include.title }}
+<hr/>
 {% endif %}
 
 

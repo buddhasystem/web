@@ -1,5 +1,5 @@
 {% if include.title %}
-## {{ include.title }}
+<h3>{{ include.title }}</h3>
 {% endif %}
 
 {% assign items = site.data.documents | where: "category", include.category %}

@@ -1,3 +1,4 @@
+<center>
 <table WIDTH="100%">
 
 <tr><th>Name</th><th>Role</th></tr>
@@ -12,3 +13,4 @@
 {% endfor %}
 
 </table>
+</center>

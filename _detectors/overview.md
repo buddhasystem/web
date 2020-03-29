@@ -5,7 +5,7 @@ layout: newbase
 weight: 1
 level: 0
 ---
-<center><h2> {{ page.title }} </h2></center>
+{% include title.md %}
 
 ### Archived presentations
 [Overview of PHENIX detectors, BNL 2018]({{ '/assets/detectors/phenix/PHENIXtheDetector.pdf' | relative_url }})

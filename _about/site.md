@@ -5,7 +5,7 @@ abbrev: dap
 weight: 5
 level: 0
 ---
-<center><h2> {{ page.title }} </h2></center>
+{% include title.md %}
 
 ### The Goal
 This Web site has been created with the goal to support the **Data and Analysis Preservation** (DAP)

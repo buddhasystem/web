@@ -7,7 +7,7 @@ level: 0
 div: yes
 ---
 
-<h2> {{ page.title }} </h2>
+{% include title.md %}
 
 These pages are designed and maintained by the PHENIX Data and Analysis Preservation task force members:<br/>
 <p/>

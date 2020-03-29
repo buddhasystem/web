@@ -6,7 +6,7 @@ weight: 0
 level: 0
 ---
 
-<center><h2> {{ page.title }} </h2></center>
+{% include title.md %}
 
 ### What is DAP?
 Since the second decade of the 21<sup>st</sup> century the term **Data and Analysis Preservation** (DAP)

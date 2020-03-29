@@ -7,6 +7,6 @@ level: 0
 detector_category: central
 div: yes
 ---
-# {{ page.title }}
+{% include title.md %}
 
 {% include detectors/detector_selection.md category=page.detector_category %}

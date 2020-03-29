@@ -12,7 +12,7 @@ items:
    - {title: 'PHENIX Systems',				category: 'systems'}
    - {title: 'Summaries',				category: 'summary'}
 ---
-# Documents
+{% include title.md %}
 
 {% for item in page.items %}
 {% include documents/doc.md title=item.title category=item.category %}
