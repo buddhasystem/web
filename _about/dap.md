@@ -15,11 +15,18 @@ the fact that data which can’t be analyzed is useless. DAP is commonly describ
 * Long-term management and preservation of the software infrastructure and application code
 * Analysis know-how (knowledge management)
 
-### This site
-This Web site has been created with the goal to support the **Data and Analysis Preservation** (DAP)
-mandate of the PHENIX Collaboration.
+### Bit Preservation
+PHENIX relies on capabilities and infrastructure the Scientific Data and Computing Center (SDCC)
+at Brookhaven National Laboratory for the long-term preservation of the experiment's data
+including the raw data, conditions-type data, simulated and processed data.
 
-Content from multiple legacy PHENIX and RHIC Web sites and other
-information resources is being curated, systematized and included here in a way that is helpful
-to the present and future researchers performing or revisiting analyses of the PHENIX data.
+### Software Infrastructure and Code
+PHENIX is using version control (CVS and git) to manage its code, and virtual machine (VM)
+technology to manage the software configuration.
+
+### Knolwedge Management
+The Collaboration has undertaken an effort to review, curate, systematize and preserve
+knowledge necessary for the analysis of the data. Creation, development and maintenance
+of this website is a part of this effort.
+
 

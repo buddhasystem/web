@@ -5,6 +5,7 @@ layout: newbase
 weight: 20
 level: 0
 detector_category: central
+div: yes
 ---
 # {{ page.title }}
 
