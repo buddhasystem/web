@@ -1,18 +1,23 @@
 ---
 title: This Website
 layout: newbase
-abbrev: dap
+abbrev: site
 weight: 5
 level: 0
 ---
 {% include title.md %}
 
 ### The Goal
-This Web site has been created with the goal to support the **Data and Analysis Preservation** (DAP)
+This website has been created with the goal to support the **Data and Analysis Preservation** (DAP)
 mandate of the PHENIX Collaboration, and more specifically to aid the **Knolwedge Management** aspect of it.
-Content from multiple legacy PHENIX and RHIC Web sites and other information resources is being curated,
+Content from multiple legacy PHENIX and RHIC Web sites and various other information resources is being curated,
 systematized and included here in a way that is helpful to the present and future researchers performing
 or revisiting analyses of the PHENIX data.
+
+**The site is not a substitute for the PHENIX Wiki** or any other comparable content management
+system used to keep information which is subject to changes or pages used as a scratch pad
+to for developing analyses or other topics. The *long-term* knowledge management is the key
+in shaping the content hosted here.
 
 ### The Platform
 The following considerations are important for long-term viability of the site:
@@ -34,11 +39,7 @@ additional tools (Javascript libraries and advanced stylesheets) for optimal use
 ### Credits
 Information collected here was provided and curated by the hard-working members of the PHENIX Collaboration
 and its leadership. Special thanks to members of the <a href="https://npps.bnl.gov/">BNL Nuclear and Particle Physics Software Group</a> for various contributions and technical advice.
-
-The design of this site was inspired by the <a href="http://hepsoftwarefoundation.org/">HEP Software Foundation</a> Web site.
-We are grateful to the authors and maintainers of the following technologies:
-* <a href="https://pages.github.com/">GitHub Pages</a>
-* <a href="http://jekyllrb.com/">Jekyll</a>
-* <a href="https://shopify.github.io/liquid/">Liquid</a>
-* <a href="http://getbootstrap.com/">Bootstrap</a>
+Design of this site was inspired by the <a href="http://hepsoftwarefoundation.org/">HEP Software Foundation</a> Web site.
+We are grateful to the authors and maintainers of the following technologies: <a href="https://pages.github.com/">GitHub Pages</a>,
+ <a href="http://jekyllrb.com/">Jekyll</a>, <a href="https://shopify.github.io/liquid/">Liquid</a>, <a href="http://getbootstrap.com/">Bootstrap</a>.
 
