@@ -1,19 +1,24 @@
 - name: akiba
   full: Yasuyuki Akiba
   email: akiba@bnl.gov
+  role: PHENIX Spokesperson
 
 - name: david
   full: Gabor David
   email: david@bnl.gov
+  role: Collaborative Tools Coordinator
 
 - name: pinkenburg
   full: Chris Pinkenburg
   email: pinkenburg@bnl.gov
+  role: Software Infrastructure Architect
 
 - name: potekhin
   full: Maxim Potekhin
   email: potekhin@bnl.gov
+  role: Designer of this Website
 
 - name: todoroki
   full: Takahito Todoroki
   email: todoroki@bnl.gov
+  role: Analysis Coordinator

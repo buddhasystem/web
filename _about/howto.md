@@ -1,15 +1,13 @@
 ---
-title: Credits
+title: How to Contribute
 layout: newbase
-abbrev: credits
-weight: 20
-level: 1
+abbrev: howto
+weight: 10
+level: 0
 ---
 
-# Credits
+<center><h2> {{ page.title }} </h2></center>
 
-Information collected here was provided and curated by the hard-working members of the PHENIX Collaboration and its leadership.
-Special thanks to members and leadership of the <a href="https://npps.bnl.gov/">BNL Nuclear and Particle Physics Software Group</a> for contributions and technical advice.
 
 The design of this site was inspired by the <a href="http://hepsoftwarefoundation.org/">HEP Software Foundation</a> Web site.
 We are grateful to the authors and maintainers of the following technologies:

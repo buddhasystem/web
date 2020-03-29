@@ -5,11 +5,12 @@ abbrev: dap
 weight: 0
 level: 0
 ---
-# {{ page.title }}
+
+<center><h2> {{ page.title }} </h2></center>
 
 ### What is DAP?
-Since the second decade of the century the term **Data and Analysis Preservation** (DAP)
-is often used in the place of the traditional "data preservation" to account for
+Since the second decade of the 21<sup>st</sup> century the term **Data and Analysis Preservation** (DAP)
+is often used in place of the traditional "data preservation" to account for
 the fact that data which can’t be analyzed is useless. DAP is commonly described as a union of
 * Bit preservation (e.g. data on tape and relevant management policies and techniques)
 * Long-term management and preservation of the software infrastructure and application code
