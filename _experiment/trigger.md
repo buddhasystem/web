@@ -4,6 +4,7 @@ layout: newbase
 abbrev: trigger
 level: 0
 weight: 30
+document_folder: '/assets/documents/'
 ---
 
 {% include title.md %}
