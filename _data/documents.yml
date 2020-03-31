@@ -150,11 +150,22 @@
   format: pdf
   date: 
 
+### Physics
+- name: Naglis2009_Article_MeasurementOfLightMesonsAtRHIC.pdf
+  title: Measurement of light mesons at RHIC by the PHENIX experiment
+  tags: [ert, mesons]
+  author: M.Naglis
+  venue: 
+  type: document
+  category: paper
+  format: pdf
+  date: 
+
 ### Theses:
 - name: patel_thesis.pdf
   title: Jet longitudinal double spin asymmetry in PHENIX p + p √s = 510GeV
   tags: [ert, spin]
-  author: Milap Patel
+  author: M.Patel
   venue: 
   type: document
   category: thesis
