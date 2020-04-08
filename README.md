@@ -39,7 +39,3 @@ Links will need to be converted:
 ```
 wget --convert-links -r http://localhost:4000/web/
 ```
-
-# GitHub Interface
-
-<iframe src="https://phenixcollaboration.github.io/web/" height="600" width="800">test</iframe>
