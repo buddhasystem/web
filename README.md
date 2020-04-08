@@ -39,3 +39,7 @@ Links will need to be converted:
 ```
 wget --convert-links -r http://localhost:4000/web/
 ```
+
+# GitHub Interface
+
+<iframe src="https://github.com/buddhasystem/web/blob/2288611f8d527d3a252c3f66f81be4454ab5e299/landing.html#L2" height="600" width="800"></iframe>
